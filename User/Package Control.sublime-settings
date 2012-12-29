@@ -1,0 +1,18 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"ChangeQuotes",
+		"ColorPick",
+		"DetectSyntax",
+		"ERB Insert and Toggle Commands",
+		"Expand Selection to Quotes",
+		"FindKeyConflicts",
+		"Handlebars",
+		"Package Control",
+		"RSpec",
+		"Sass",
+		"SideBarEnhancements",
+		"Toggle Symbol to String"
+	]
+}

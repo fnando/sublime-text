@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "FindKeyConflicts: (Direct) Conflicts to Quick Panel",
+        "command": "find_key_conflicts"
+    },
+    {
+        "caption": "FindKeyConflicts: (Direct) Conflicts to Buffer",
+        "command": "find_key_conflicts",
+        "args": {"output": "buffer"}
+    },
+    {
+        "caption": "FindKeyConflicts: All Key Maps to Quick Panel",
+        "command": "find_key_mappings"
+    },
+    {
+        "caption": "FindKeyConflicts: All Key Maps to Buffer",
+        "command": "find_key_mappings",
+        "args": {"output": "buffer"}
+    },
+    {
+        "caption": "FindKeyConflicts: All Conflicts",
+        "command": "find_all_key_conflicts"
+    },
+    {
+        "caption": "FindKeyConflicts: Overlap Conflicts",
+        "command": "find_overlap_conflicts"
+    },
+    {
+        "caption": "FindKeyConflicts: Single Package Conflicts",
+        "command": "find_key_conflicts_with_package"
+    },
+    {
+        "caption": "FindKeyConflicts: Multiple Pacakge Conflicts",
+        "command": "find_key_conflicts_with_package",
+        "args": {"multiple": true}
+    }
+]

@@ -1,0 +1,18 @@
+{
+	// List of packages to ignore. Note that ignored packages from
+	// Preferences are included by default.
+	"ignored_packages": [],
+
+	// Boolean specifying if single key commands should be ignored.
+	"ignore_single_key": false,
+
+	// List of ignored patterns. These should match the style used
+	// to specify key bindings.
+	"ignore_patterns": [],
+
+	// Used to determine if internal package conflicts should be displayed.
+	"display_internal_conflicts": true,
+
+	// Enables debug mode
+	"debug": false
+}

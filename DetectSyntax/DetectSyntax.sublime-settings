@@ -1,0 +1,182 @@
+// rules is a list (array) of checks that you want to make against the file in the current view.
+// A rule is either a regular expression or a function. If using a regular expression, you can specify whether you
+// want it tested against the file_name or the first line of the file (think shebangs and xml files). If the rule
+// is a function, you must provide the path to the file containing the function and the name of the function to call.
+// When this function is called, the file_name will be passed to it as the only argument. You are free to do whatever
+// you want in your function, just return True or False.
+//
+// NOTE: file_name is the full, absolute path of the file. file_name is not altered in any way after it is retrieved
+// from ST2, so pay attention to case when constructing regular expressions.
+//
+// If the syntax name is same as the directory name it is in, there is no need to specify both. For example, if the tmLanguage
+// file is Packages/XML/XML.tmLanguage, you need only supply XML. The plugin will figure it out. If, however, the tmLanguage
+// file is different, such as Rails/Ruby Haml, then you need to specify both. The plugin is capable of supporting multiple
+// levels of nesting if you need it to. For example, if you had all of your tmLanguage files for Rails organized like
+//
+// Packages/Rails/Language/*.tmLanguage
+//
+// you would define the syntax to be Rails/Language/Ruby Haml or whatever. Maybe a simpler way of saying it is this: if the plugin
+// finds a path separator in the syntax name, it will take the last piece and use it for the name of the tmLanguage file. Everything
+// else will be a path.
+//
+// NOTE: You can define the syntaxes using the path separator for your platform or a forward slash (/). If your path separator is a
+// backslash (\), you will need to escape it with another one, as in \\. Either way, when the name is parsed to build the syntax file
+// name, the path separator for your platform will be used.
+//
+// The rules are processed until the first True result, so order your rules in a way that makes sense to you. These are
+// the syntax definitions that I use. See below for comments. Also note that some of the rules may not be necessary as ST2 does
+// identify files well, but I leave them here as examples.
+
+{
+	// if an exception occurs when processing a function, should it be reraised so the user gets feedback? This is really
+	// only useful to those writing functions. The average user just wants the plugin to work, so let's not reraise the
+	// exception
+	"reraise_exceptions": false,
+
+	// If you want to have a syntax applied when new files are created, set new_file_syntax to the name of the syntax to use.
+	// The format is exactly the same as "name" in the rules below. For example, if you want to have a new file use
+	// JavaScript syntax, set new_file_syntax to 'JavaScript'.
+	"new_file_syntax": false,
+	"default_syntaxes": [
+		{
+			// I put XML first because of files like *.tmLanguage. It is unlikely that this rule will result in a
+			// false positive, meaning if it matches, you probably want the XML syntax
+			"name": "XML",
+			"rules": [
+				{"file_name": ".*\\.xml(\\.dist)?$"},
+				{"first_line": "^<\\?xml"}
+			]
+		},
+		{
+			// The Cucumber and RSpec rules come before Rails and Ruby because they end in .rb and will be
+			// identified as Rails or Ruby otherwise.
+			"name": "Cucumber/Cucumber Steps",
+			"rules": [
+				{"file_name": ".*steps\\.rb$"}
+			]
+		},
+		{
+			// One could use just the second rule to match every ruby file in a /spec/ directory, but I prefer to more explicit.
+			"name": "RSpec",
+			"rules": [
+				{"file_name": ".*spec\\.rb$"},
+				{"file_name": ".*\/spec\/.*\\.rb$"}
+			]
+		},
+		{
+			// This rule could be incorporated into the next one, but I prefer to be more explicit rather than less
+			"name": "Rails/Ruby Haml",
+			"rules": [
+				{"file_name": ".*\\.haml$"}
+			]
+		},
+		{
+			// This is an example of using a custom function to decide whether or not to apply this syntax.
+			// source can be an absolute path or relative. If relative, the plugin will look in Packages/User first
+			// and then the plugin directory. The one used here comes with the plugin. Any you write should be
+			// placed in Packages/User. Since no attempt is made to parse "source", you should be able to create
+			// a subdirectory under Packages/User, such as Packages/User/DetectSyntax, for any custom functions you
+			// create.
+			//
+			// If the name of the source file is the same as the name of the function *and* it is located in either
+			// Packages/User or Packages/DetectSyntax, you don't need to specify "source" in the rule. The plugin
+			// will append '.py' to the name if "source" is empty. So
+			//
+			//   {"function": {"name": "is_rails_file"}}
+			//
+			// will have the same effect as
+			//
+			//   {"function": {"name": "is_rails_file", "source": "is_rails_file.py"}}
+			//
+			"name": "Rails/Ruby on Rails",
+			"rules": [
+				{"function": {"name": "is_rails_file"}}
+			]
+		},
+		{
+			"name": "Ruby",
+			"rules": [
+				{"file_name": ".*\\Gemfile$"},
+				{"file_name": ".*\\Capfile$"},
+				{"file_name": ".*\\Guardfile$"},
+				{"file_name": ".*\\[Rr]akefile$"},
+				{"file_name": ".*\\Vagrantfile(\\..*)?$"},
+				{"file_name": ".*\\Thorfile$"},
+				{"file_name": ".*\\.thor$"},
+				{"file_name": ".*\\config.ru$"},
+				{"file_name": ".*\\.rake$"},
+				{"file_name": ".*\\.simplecov$"},
+				{"file_name": ".*\\.jbuilder$"},
+				{"file_name": ".*\\.rb$"},
+				// a binary rule does the same thing as a first_line rule that uses a regexp to match a shebang, the
+				// difference being DetectSyntax will construct the regexp and the user doesn't have to. So
+				//
+				// 		{"binary": "ruby"}
+				//
+				// is functionally equivalent to
+				//
+				//		{"first_line": "^#\\!(?:.+)ruby"}
+				//
+				{"binary": "ruby"}
+			]
+		},
+		// {
+		// 	// This is an example of having to match all rules. In this example, the file needs to have a ruby
+		// 	// shebang *and* end in .ruby. If "match" == "all", DetectSyntax will set the named syntax only if all
+		// 	// rules match. If "match" is anything other than "all", the syntax will be set if any rule matches
+		// 	// (the normal behavior)
+		// 	"name": "Ruby",
+		// 	"match": "all",
+		// 	"rules": [
+		// 		{"binary": "ruby"},
+		// 		{"file_name": ".*\\.ruby$"}
+		// 	]
+		// },
+		{
+			"name": "PHP",
+			"rules": [
+				{"file_name": ".*\\.(php|inc|phtml)$"},
+				{"first_line": "^<\\?php"}
+			]
+		},
+		{
+			"name": "PHP/Smarty",
+			"rules": [
+				{"file_name": ".*\\.tpl$"}
+			]
+		},
+		{
+			"name": "YAML",
+			"rules": [
+				{"file_name": ".*\\.gemrc$"},
+				{"file_name": ".*\\.yml(\\.dist)?$"}
+			]
+		},
+		{
+			// This rule requires the INI plugin to be installed (via PackageControl or https://github.com/clintberry/sublime-text-2-ini)
+			"name": "INI",
+			"rules": [
+				{"file_name": ".*\\.(gitattributes|gitconfig|gitignore|npmrc)$"},
+				{"file_name": ".*\\.ini(\\.dist)?$"}
+			]
+		},
+		{
+			"name": "ShellScript/Shell-Unix-Generic",
+			"rules": [
+				{"file_name": "profile"},
+				{"file_name": ".*\\.bash.*$"},
+				{"file_name": ".*\\.z(shrc|shenv|profile|login|logout).*$"},
+				{"file_name": ".*\\.(bash|sh)$"},
+				{"binary": "bash"}
+			]
+		},
+		{
+			// This doesn't really need to be here as ST2 identifies Apache files correctly, but I leave it
+			// for instructional value
+			"name": "Apache",
+			"rules": [
+				{"file_name": "^.*(\\.htaccess|\\.htgroups|\\.htpasswd|httpd\\.conf)$"}
+			]
+		}
+	]
+}

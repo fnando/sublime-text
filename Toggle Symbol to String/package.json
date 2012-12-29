@@ -1,0 +1,7 @@
+{
+  "repo": "SublimeToggleSymbol",
+  "name": "ToggleSymbol",
+  "description": "Converts ruby symbols to strings and back. I.e. semi-colon into strings and double quoted and single quoted strings into semi-colon prefixed",
+  "author": "Srdan Kvrgic (zoomix)",
+  "homepage": "https://github.com/zoomix/SublimeToggleSymbol"
+}

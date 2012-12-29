@@ -1,0 +1,79 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.gem",
+		"*.tar",
+		"*.tar.gz"
+	],
+	"bold_folder_labels": true,
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - User/Espresso Soda.tmTheme",
+	"drag_text": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.log",
+		".DS_Store",
+		"*.sqlite3",
+		"*.rbx",
+		".tags*",
+		"Gemfile.lock",
+		"*.pyc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		"coverage",
+		"tmp",
+		"pkg",
+		".sass-cache",
+		"node_modules"
+	],
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 20.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0.5,
+	"line_padding_top": 0.5,
+	"new_window_settings":
+	{
+		"show_minimap": false
+	},
+	"open_files_in_new_window": true,
+	"preview_on_click": true,
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": false,
+	"show_full_path": true,
+	"soda_classic_tabs": false,
+	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
