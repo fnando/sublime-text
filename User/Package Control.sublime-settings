@@ -1,7 +1,9 @@
 {
+	"cache_length": 3600,
 	"installed_packages":
 	[
 		"Alignment",
+		"BufferScroll",
 		"ChangeQuotes",
 		"ColorPick",
 		"DetectSyntax",
@@ -9,10 +11,15 @@
 		"Expand Selection to Quotes",
 		"FindKeyConflicts",
 		"Handlebars",
+		"IndentGuides",
+		"Jasmine",
+		"Markdown Preview",
 		"Package Control",
 		"RSpec",
+		"RubyEval",
 		"Sass",
 		"SideBarEnhancements",
-		"Toggle Symbol to String"
+		"Toggle Symbol to String",
+		"WordCount"
 	]
 }

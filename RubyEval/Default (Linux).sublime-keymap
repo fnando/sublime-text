@@ -1,0 +1,3 @@
+[
+  { "keys": ["super+k", "super+e"], "command": "ruby_eval" }
+]

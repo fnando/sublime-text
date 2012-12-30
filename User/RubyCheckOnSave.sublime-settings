@@ -1,0 +1,6 @@
+/*
+    RubySyntaxCheck default settings
+*/
+{
+    "ruby_check_on_save_cmd": "/Users/fnando/local/bin/ruby"
+}

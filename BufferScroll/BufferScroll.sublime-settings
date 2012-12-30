@@ -1,0 +1,15 @@
+
+	{
+		"remember_color_scheme" : false,
+
+		/* allows to keep in sync bookmarks, marks or folds across cloned views */
+		"synch_bookmarks" : false,
+		"synch_folds" : false,
+		"synch_marks" : false,
+
+		/* this allow to sync the scroll of the clones of a view */
+		"synch_scroll" : false,
+
+		/* The line you work with is automatically the vertical center of the screen. */
+		"typewriter_scrolling": false
+	}
