@@ -1,15 +1,17 @@
 {
-	"cache_length": 3600,
+	"cache_length": 86400,
 	"installed_packages":
 	[
 		"Alignment",
 		"BufferScroll",
 		"ChangeQuotes",
 		"ColorPick",
+		"CTags",
 		"DetectSyntax",
 		"ERB Insert and Toggle Commands",
 		"Expand Selection to Quotes",
 		"FindKeyConflicts",
+		"Gitignore",
 		"Handlebars",
 		"IndentGuides",
 		"Jasmine",
