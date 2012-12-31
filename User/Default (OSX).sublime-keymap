@@ -7,6 +7,11 @@
   {"keys": ["super+k", "super+s"], "command": "swap_case"},
   {"keys": ["ctrl+shift+q"], "command": "change_quotes"},
   {"keys": ["ctrl+shift+i"], "command": "expand_selection_to_quotes"},
+  {"keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false}},
+  {"keys": ["ctrl+u"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to BOL.sublime-macro"}},
+  {"keys": ["ctrl+d"], "command": "right_delete"},
+  {"keys": ["super+v"], "command": "paste_and_indent"},
+  {"keys": ["super+shift+v"], "command": "paste"},
   {"keys": ["'"], "command": "insert_snippet", "args": {"contents": "\"${0:$SELECTION}\""}, "context":
     [
       {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
@@ -17,5 +22,9 @@
     [
       {"key": "selector", "operator": "equal", "operand": "text.html.ruby, source.yaml, source.css, source.scss, source.js"}
     ]
-  }
+  },
+
+  // CTAGS
+  {"keys": ["super+shift+period"], "command": "navigate_to_definition"},
+  {"keys": ["super+k", "super+r"], "command": "rebuild_tags"}
 ]
