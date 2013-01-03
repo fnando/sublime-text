@@ -4,9 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>describe ${1:Type} do
-  it "should ${2:description}" do
-    $0
-  end
+  $0
 end</string>
 	<key>name</key>
 	<string>describe (type)</string>
