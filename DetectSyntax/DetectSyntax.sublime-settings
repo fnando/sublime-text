@@ -171,6 +171,12 @@
 			]
 		},
 		{
+			"name": "Blade",
+			"rules": [
+				{"file_name": ".*\\.blade.php$"}
+			]
+		},
+		{
 			// This doesn't really need to be here as ST2 identifies Apache files correctly, but I leave it
 			// for instructional value
 			"name": "Apache",
