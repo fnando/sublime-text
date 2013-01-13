@@ -133,6 +133,12 @@
 		// 	]
 		// },
 		{
+			"name": "Blade",
+			"rules": [
+				{"file_name": ".*\\.blade.php$"}
+			]
+		},
+		{
 			"name": "PHP",
 			"rules": [
 				{"file_name": ".*\\.(php|inc|phtml)$"},
@@ -168,12 +174,6 @@
 				{"file_name": ".*\\.z(shrc|shenv|profile|login|logout).*$"},
 				{"file_name": ".*\\.(bash|sh)$"},
 				{"binary": "bash"}
-			]
-		},
-		{
-			"name": "Blade",
-			"rules": [
-				{"file_name": ".*\\.blade.php$"}
 			]
 		},
 		{

@@ -1,0 +1,4 @@
+{
+  "cmd": ["vagrant-run", "node", "'$file_path'", "'$file'"],
+  "selector": "source.javascript"
+}

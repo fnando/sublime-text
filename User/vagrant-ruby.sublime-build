@@ -1,0 +1,4 @@
+{
+  "cmd": ["vagrant-run", "ruby", "$file"],
+  "selector": "source.ruby"
+}

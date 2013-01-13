@@ -60,6 +60,15 @@ Contributing
 
 History
 -------
+
+2013-01-11
+
+* Corrected location of Blade PHP files.
+
+2013-01-05
+
+* Added support for Blade PHP files.
+
 2012-11-18
 
 * Added support for zsh config files. [Thanks Benjamin Smith]

@@ -1,0 +1,4 @@
+{
+  "cmd": ["vagrant-run", "rspec", "$file"],
+  "selector": "source.ruby.rspec"
+}
