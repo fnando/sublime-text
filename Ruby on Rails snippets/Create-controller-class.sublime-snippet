@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[class ${1:Model}Controller < ApplicationController
+  $2
+end]]></content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Create controller class</description>
+</snippet>
