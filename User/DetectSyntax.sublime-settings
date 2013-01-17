@@ -10,5 +10,11 @@
 
 	// Put your custom syntax rules here:
 	"syntaxes": [
+    {
+      "name": "Ruby on Rails snippets/Ruby on Rails",
+      "rules": [
+        {"function": {"name": "is_rails_file"}}
+      ]
+    }
 	]
 }
