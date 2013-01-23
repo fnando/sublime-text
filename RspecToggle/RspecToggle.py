@@ -76,7 +76,15 @@ class RspecToggleCommand(sublime_plugin.WindowCommand):
     if os.path.isfile(fullpath):
       self.window.open_file(fullpath)
     elif sublime.ok_cancel_dialog(CREATE_SPEC_FILE_MESSAGE):
+      self._make_dir_for_path(fullpath)
       handler = open(fullpath, "w+")
       handler.write(SPEC_TEMPLATE)
       handler.close()
       self.window.open_file(fullpath)
+
+  def _make_dir_for_path(self, filepath):
+    basedir = os.path.dirname(filepath)
+
+    if not os.path.isdir(basedir):
+      os.makedirs(basedir)
+

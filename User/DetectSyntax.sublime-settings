@@ -13,7 +13,20 @@
     {
       "name": "Ruby on Rails snippets/Ruby on Rails",
       "rules": [
-        {"function": {"name": "is_rails_file"}}
+        {"file_name": "\\.rb$"}
+      ]
+    },
+
+    {
+      "name": "Ruby",
+      "rules": [
+        {"file_name": "\\.ru$"}
+      ]
+    },
+    {
+      "name": "RSpec",
+      "rules": [
+        {"file_name": "_spec\\.rb$"}
       ]
     }
 	]
