@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-def initialize
+def initialize${1:(${2:args})}
   $0
 end
 ]]></content>
