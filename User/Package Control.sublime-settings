@@ -3,7 +3,9 @@
 	"cache_length": 86400,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Alignment",
+		"Browser Refresh",
 		"BufferScroll",
 		"ChangeQuotes",
 		"ColorPick",
@@ -22,6 +24,7 @@
 		"Markdown Preview",
 		"nginx",
 		"Package Control",
+		"Pretty JSON",
 		"RSpec",
 		"RspecToggle",
 		"Ruby on Rails snippets",

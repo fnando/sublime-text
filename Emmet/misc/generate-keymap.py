@@ -14,7 +14,7 @@ keymap = {
 		"pc": "ctrl+shift+forward_slash",
 		"context": [{
 			"key": "selector", 
-			"operand": "source.css - source.css.less, text.xml, text.html",
+			"operand": "source.css - source.css.less, text.xml, text.html - source",
 			"operator": "equal"
 		}]
 	},
@@ -67,7 +67,7 @@ addon = [
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source.php, storage.type.templatetag.django",
+				"operand": "text.html source.php, text.html source.js, storage.type.templatetag.django",
 				"operator": "not_equal",
 				"match_all": True
 			}, {
@@ -107,7 +107,7 @@ addon = [
 				"operator": "equal"
 			}, {
 				"key": "selector",
-				"operand": "text.html source.php, storage.type.templatetag.django",
+				"operand": "text.html source.php, text.html source.js, storage.type.templatetag.django",
 				"operator": "not_equal",
 				"match_all": True
 			}, {

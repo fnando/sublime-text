@@ -45,19 +45,22 @@
 		"tmp",
 		"pkg",
 		".sass-cache",
-		"node_modules"
+		"node_modules",
+		"log",
+		"vendor"
 	],
 	"font_face": "Menlo",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 20.0,
+	"font_size": 19.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Emmet"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,

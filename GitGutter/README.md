@@ -1,6 +1,6 @@
 ## Git Gutter
 
-A sublime text 2 plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
+A sublime text 2/3 plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
 
 ### Screenshot:
 
@@ -25,20 +25,52 @@ git clone git@github.com:jisaacks/GitGutter.git
 
 *Windows*
 
-GitGutter assumes that the `git` and `diff` command is availible on the command line. Since the MSI installer for Git on Windows only adds the `cmd` directory of your Git installation to the `PATH` environment variable by default, GitGutter may not work out of the box. In this case you have to add the `bin` directory of your Git installation to the `PATH` environment variable.
+GitGutter assumes that the `git` command is available on the command line. If it's not, add the directory containing `git.exe` to your `PATH` environment variable. Then clone the repo:
 
-For example:
 ```dos
- %PATH%;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd
+cd "%APPDATA%\Sublime Text 2\Packages"
+git clone git://github.com/jisaacks/GitGutter.git
 ```
 
 ### Settings
+Settings are accessed via the <kbd>Preferences</kbd> > <kbd>Package Settings</kbd> > <kbd>GitGutter</kbd> menu.
 
-By default it is set to live mode, which runs everytime the file is modified. If you experience performance issues you can set it to only run on save by adding an entry to your **Preferences.sublime-text** file, just set:
+Default settings should not be modified, as they are overwritten when GitGutter updates. Instead, you should copy the relevant settings into GitGutter's user settings file.
 
-```json
-"git_gutter_live_mode": false
+#### Non Blocking Mode
+By default, GitGutter runs in the same thread which can block if it starts to perform slowly. Usually this isn't a problem but depending on the size of your file or repo it can be. If you set `non_blocking` to `true` then GitGutter will run in a seperate thread and will not block. This does cause a slight delay between when you make a modification and when the icons update in the gutter. This is a ***Sublime Text 3 only feature***, ST2 users can turn off live mode if performance is an issue.
+
+#### Live Mode
+By default, GitGutter detects changes every time the file is modified. If you experience performance issues you can set it to only run on save by setting `live_mode` to `false`.
+
+#### Git path
+If git is not in your PATH, you may need to set the `git_binary` setting to the location of the git binary, e.g. in a portable environment;
+```js
+{
+  "git_binary": "E:\\Portable\\git\\bin\\git.exe"
+}
 ```
+
+
+#### Per-project Settings
+Sublime Text supports project-specific settings, allowing `live_mode` to be set differently for different repositories.
+To implement, use the <kbd>Project</kbd> > <kbd>Edit Project</kbd> menu and add the `settings` key as shown.
+```json
+{
+    "folders":
+    [
+        {
+            "path": "src"
+        }
+    ],
+    "settings":
+    {
+        "live_mode": false
+    }
+}
+```
+
+#### Icon Coloring
 
 The colors come from your *color scheme* **.tmTheme** file. If your color scheme file does not define the appropriate colors (or you want to edit them) add an entry that looks like this:
 
@@ -76,6 +108,30 @@ The colors come from your *color scheme* **.tmTheme** file. If your color scheme
     <string>#967EFB</string>
   </dict>
 </dict>
-```
+```  
+### Jumping Between Changes
+There are commands to jump between modifications. The default keybindings for these commands are:  
 
+**OSX**
 
+prev: <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>k</kbd>  
+next: <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>j</kbd>
+
+**Windows**
+
+prev: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>k</kbd>  
+next: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>j</kbd>
+
+<br>
+
+------------
+
+### Alternatives
+
+*Don't use Sublime?*
+ - [Vim GitGutter](https://github.com/airblade/vim-gitgutter)
+ - [Emacs GitGutter](https://github.com/syohex/emacs-git-gutter)
+
+*Don't use Git?*
+ - [VcsGutter](https://github.com/bradsokol/VcsGutter)
+ - [Modific](https://github.com/gornostal/Modific) *Not a port/fork of __GitGutter__ but similar*
