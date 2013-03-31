@@ -1,22 +1,18 @@
 from subprocess import call
-from utils import running_browsers
-
-browsers = running_browsers()
 
 
 class MacBrowserRefresh:
-    def __init__(self, activate_browser):
-        if activate_browser == True:
+    def __init__(self, activate_browser, running_browsers):
+        if activate_browser:
             self.activate = 'activate'
         else:
             self.activate = ''
 
-        # delay 1 is used to take into account space switching. Otherwise it screws up
-        # the reference assignment and it won't come to the front of Developer Tools.
+        self.browsers = running_browsers
+
         self._chrome_applescript = """
             tell application "{name}"
                 {activate}
-                delay 1
                 set winref to a reference to (first window whose title does not start with "Developer Tools - ")
                 set winref's index to 1
                 reload active tab of winref
@@ -27,7 +23,7 @@ class MacBrowserRefresh:
         command = self._chrome_applescript.format(
             name=app_name, activate=self.activate)
 
-        if browser_name in browsers:
+        if browser_name in self.browsers:
             self._call_applescript(command)
 
     def chrome(self):
@@ -39,14 +35,27 @@ class MacBrowserRefresh:
     def safari(self):
         command = """
             tell application "Safari"
-                activate
+                {activate}
                 tell its first document
                     set its URL to (get its URL)
                 end tell
             end tell
             """.format(activate=self.activate)
 
-        if 'safari' in browsers:
+        if 'safari' in self.browsers:
+            self._call_applescript(command)
+
+    def webkit(self):
+        command = """
+            tell application "WebKit"
+                {activate}
+                tell its first document
+                    set its URL to (get its URL)
+                end tell
+            end tell
+            """.format(activate=self.activate)
+
+        if 'webkit' in self.browsers:
             self._call_applescript(command)
 
     def firefox(self):
@@ -57,7 +66,7 @@ class MacBrowserRefresh:
             end tell
             """
 
-        if 'firefox' in browsers:
+        if 'firefox' in self.browsers:
             self._call_applescript(command)
 
     def opera(self):
@@ -68,7 +77,7 @@ class MacBrowserRefresh:
             end tell
             """
 
-        if 'opera' in browsers:
+        if 'opera' in self.browsers:
             self._call_applescript(command)
 
     def _call_applescript(self, command):

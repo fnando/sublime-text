@@ -1,5 +1,5 @@
 {
-    "theme": "default",
+    "theme": "monokai",
     "linenos": "inline",
     "noclasses": true,
     "fontface": "Menlo"

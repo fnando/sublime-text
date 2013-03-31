@@ -35,18 +35,11 @@
   {"keys": ["super+shift+period"], "command": "navigate_to_definition"},
   {"keys": ["super+k", "super+r"], "command": "rebuild_tags"},
 
-  {
-    "keys": ["super+shift+b"], "command": "browser_refresh", "args": {
-      "auto_save": true,
-      "delay": 0.0,
-      "activate_browser": true,
-      "browser_name" : "safari"
-    }
-  },
-
   { "keys": ["ctrl+alt+c"],
     "command": "sublime_highlight",
     "args": { "target": "clipboard",
               "output_type": "rtf"
-  }}
+  }},
+
+  { "keys": ["super+shift+b"], "command": "anypreter" }
 ]

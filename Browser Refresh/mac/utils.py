@@ -6,22 +6,25 @@ def running_browsers():
     ps = check_output(['ps', 'aux'])
     running_browsers = []
 
-    if re.search(r'Google Chrome\.app\/Contents\/MacOS\/Google Chrome', ps) is not None:
+    if re.search(b'Google Chrome\.app\/Contents\/MacOS\/Google Chrome', ps) is not None:
         running_browsers.append('chrome')
 
-    if re.search(r'Google Chrome Canary\.app\/Contents\/MacOS\/Google Chrome Canary', ps) is not None:
+    if re.search(b'Google Chrome Canary\.app\/Contents\/MacOS\/Google Chrome Canary', ps) is not None:
         running_browsers.append('canary')
 
-    if re.search(r'Firefox\.app', ps) is not None:
+    if re.search(b'Firefox\.app', ps) is not None:
         running_browsers.append('firefox')
 
-    if re.search(r'Safari\.app', ps) is not None:
+    if re.search(b'Safari.app\/Contents\/MacOS\/Safari\ ', ps) is not None:
         running_browsers.append('safari')
 
-    if re.search(r'Opera\.app', ps) is not None:
+    if re.search(b'Safari\.app\/Contents\/MacOS\/SafariForWebKitDevelopment', ps) is not None:
+        running_browsers.append('webkit')
+
+    if re.search(b'Opera\.app', ps) is not None:
         running_browsers.append('opera')
 
-    return running_browsers if len(running_browsers) > 0 else None
+    return running_browsers
 
 
 # Got this from http://stackoverflow.com/a/2924457/124852
@@ -53,4 +56,4 @@ subprocess.CalledProcessError = CalledProcessError
 
 
 if __name__ == '__main__':
-    print running_browsers()
+    print(running_browsers())
