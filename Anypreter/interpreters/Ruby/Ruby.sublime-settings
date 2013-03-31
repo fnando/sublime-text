@@ -1,0 +1,8 @@
+[
+    {
+        "Name": "Ruby",
+        "encryption": "base64",
+        "wrapper": "require 'base64'; eval(Base64.decode64('%code%'))",
+        "command": "ruby -e \"%code%\""
+    }
+]

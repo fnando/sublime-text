@@ -1,0 +1,18 @@
+[
+    {
+        "Name": "PHP (PHP-Mode)",
+        
+        "plain_wrapper": "",
+        "encryption": "base64",
+        "wrapper": "eval(base64_decode('%code%'));",
+        "command": "php -r \"%code%\"",
+        "custom_code_file": "PHP.py"
+    },
+    {
+        "Name": "PHP (HTML-Mode)",
+        "plain_wrapper": "?>%code%",
+        "encryption": "base64",
+        "wrapper": "eval(base64_decode('%code%'));",
+        "command": "php -r \"%code%\""
+    }
+]

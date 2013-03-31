@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+shift+x"], "command": "anypreter" },
+	{ "keys": ["ctrl+shift+y"], "command": "anypreter_quick_panel"},
+	{ "keys": ["ctrl+shift+z"], "command": "anypreter_quick_panel"}
+]
