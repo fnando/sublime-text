@@ -1,0 +1,50 @@
+[
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/SplitScreen-Resizer/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/SplitScreen-Resizer/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/SplitScreen-Resizer/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: SplitScreen-Resizer Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    }
+]

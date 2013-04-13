@@ -41,5 +41,7 @@
               "output_type": "rtf"
   }},
 
-  { "keys": ["super+shift+b"], "command": "anypreter" }
+  { "keys": ["super+shift+b"], "command": "anypreter" },
+
+  { "keys": ["super+."], "command": "reveal_in_side_bar" }
 ]

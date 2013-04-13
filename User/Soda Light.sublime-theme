@@ -1,0 +1,12 @@
+[
+  {
+      "class": "tabset_control",
+      "tab_height": 32
+  },
+  {
+      "class": "tab_label",
+      "settings": ["highlight_modified_tabs"],
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "fg": [20, 100, 220]
+  }
+]

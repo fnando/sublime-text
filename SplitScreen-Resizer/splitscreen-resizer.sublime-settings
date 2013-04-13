@@ -1,0 +1,28 @@
+{
+  // *** Understanding the way this plugin works ***
+
+  // Action, reaction:
+  // Case 1: If user focus, the plugin resizes.
+  // Case 2: If user resizes, the plugin focus.
+
+
+    // Case 1.
+    // Resize when giving focus to a Group (column)?
+    // Note that Sublime API triggers this event on the following cases:
+    // - When clicking on the working area of a column *BUT* not on the scroll bar
+    // and the Minimap.
+    // - When clicking on a Tab of a column. That includes the Close (x) button.
+    // - When giving focus to a column using default key shortcuts: Ctrl+{NUMBER}.
+  "resize_on_focus" : true,
+
+    // Case 2.
+    // Focus when resizing using this plugin's keyboard shortcuts?
+    // If false, it will only resize the columns keeping the focus where it is.
+    // This can be useful depending on how your ratios are defined.
+  "focus_on_resize" : true,
+
+    // Columns resize ratios:
+    // Remember that 70:30 = 7:3 = 0.7:0.3
+  "ratio_left"  : "56:44",
+  "ratio_right" : "44:56"
+}
