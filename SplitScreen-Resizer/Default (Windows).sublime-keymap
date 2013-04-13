@@ -1,0 +1,5 @@
+[
+  // SplitScreen-Resizer
+  { "keys": ["alt+ctrl+left"], "command": "split_screen_resizer", "args": {"side": "left"} },
+  { "keys": ["alt+ctrl+right"], "command": "split_screen_resizer", "args": {"side": "right"} }
+]
