@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.citext ${1:column_name}${2:${3:, null: false}${4:, default: false}}
+]]></content>
+  <tabTrigger>tci</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.citext</description>
+</snippet>

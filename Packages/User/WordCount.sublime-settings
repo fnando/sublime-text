@@ -1,0 +1,6 @@
+{
+  "blacklist_syntaxes": ["Ruby", "CSS", "SQL", "JavaScript", "Python", "PHP", "JSON"],
+  "enable_count_pages": false,
+  "enable_readtime": true,
+  "readtime_wpm": 180
+}

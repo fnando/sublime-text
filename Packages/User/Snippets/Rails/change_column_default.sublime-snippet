@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+change_column_default ${1:table}, ${2:column}, {$3:default}
+]]></content>
+  <tabTrigger>cd</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>change_column_default</description>
+</snippet>

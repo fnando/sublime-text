@@ -1,0 +1,5 @@
+{
+  "cmd": ["python", "$file"],
+  "selector": "source.python",
+  "working_dir": "${project_path:${folder}}"
+}

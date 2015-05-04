@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${1:Namespace} = (function(){
+  function ${2:${1/^(?:[^.]+\.)*(.*?)$/\1/}}() {
+    $0
+  }
+
+  $2.fn = $2.prototype;
+
+  return $2;
+})();
+]]></content>
+  <tabTrigger>mm</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

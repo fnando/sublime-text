@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+${1:Namespace}.fn.${2:funcName} = function(${3:args}) {
+  $0
+};
+]]></content>
+  <tabTrigger>fn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

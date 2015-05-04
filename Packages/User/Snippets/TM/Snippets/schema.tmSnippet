@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ActiveRecord::Schema.define(:version =&gt; 0) do
+  $0
+end
+</string>
+	<key>name</key>
+	<string>schema</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>schema</string>
+	<key>uuid</key>
+	<string>CEF1B032-AC27-4F10-BB2C-6FDD58856C83</string>
+</dict>
+</plist>

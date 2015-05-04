@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+add_index ${1:table}, ${2:column}, using: :gin
+]]></content>
+  <tabTrigger>aig</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>add_index using: :gin</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+;(function($1){
+  $0
+})($2);
+]]></content>
+  <tabTrigger>iife</tabTrigger>
+  <description>Immediately-Invoked Function Expression</description>
+  <scope>source.js</scope>
+</snippet>

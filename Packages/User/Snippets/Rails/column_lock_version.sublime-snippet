@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.integer :lock_version, null: false, default: 0
+]]></content>
+  <tabTrigger>tlv</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>lock_version column</description>
+</snippet>

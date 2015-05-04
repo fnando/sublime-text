@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+add_column ${1:table}, ${2:column}, ${3:type}${4:${5:, null: false}${6:, default: ${7:value}}}
+]]></content>
+  <tabTrigger>ac</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>add_column</description>
+</snippet>

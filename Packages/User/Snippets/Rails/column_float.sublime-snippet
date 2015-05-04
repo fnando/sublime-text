@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.float ${1:column_name}${2:${3:, precision: ${4:20}}${5:, scale: ${6:2}}${7:, null: false}${8:, default: 0}}
+]]></content>
+  <tabTrigger>tf</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.float</description>
+</snippet>

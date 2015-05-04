@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>util.pump(${1:read}, ${2:write});</string>
+	<key>name</key>
+	<string>util.pump</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>util</string>
+	<key>uuid</key>
+	<string>5CD026A7-72BA-4B41-8D18-C4AEAA1F33CD</string>
+</dict>
+</plist>

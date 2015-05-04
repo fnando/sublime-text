@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Module("$1", function(${2:${1/^(?:[^.]+\.)*(.*?)$/\1/}}){
+  $2.fn.initialize = function() {
+    $0
+  };
+});
+]]></content>
+  <tabTrigger>mod</tabTrigger>
+  <description>Define a new Module</description>
+  <scope>source.js</scope>
+</snippet>

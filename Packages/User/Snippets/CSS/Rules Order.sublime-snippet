@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+// Positioning
+$1
+
+// Box-model
+$2
+
+// Typography
+$3
+
+// Visual
+$4
+
+// Misc
+$5
+]]></content>
+  <tabTrigger>order</tabTrigger>
+  <scope>source.css,source.scss</scope>
+</snippet>

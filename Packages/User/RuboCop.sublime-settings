@@ -1,0 +1,44 @@
+{
+  // Here you can provide your own command line
+  // which is used to run rubocop. The path will be
+  // replaced by the file or folder which needs
+  // to be checked.
+  //
+  // If check_for_rvm or check_for_rbenv is enabled,
+  // it will be prefixed with a call to rvm or rbenv.
+  // If none of them are enabled, the command will be
+  // executed without any additions.
+  "rubocop_command": "rubocop",
+
+  // If you want use RVM to run RuboCop, just
+  // set this to true.
+  //
+  // Note: If check_for_rvm and check_for_rbenv are both enabled,
+  // the plugin will use RVM.
+  "check_for_rvm": false,
+
+  // The path to RVM's rvm-auto-ruby binary
+  "rvm_auto_ruby_path":  "~/.rvm/bin/rvm-auto-ruby",
+
+  // If you want to use rbenv to run RuboCop, just
+  // set this to true.
+  //
+  // Note: If check_for_rvm and check_for_rbenv are both enabled,
+  // the plugin will use RVM.
+  "check_for_rbenv": false,
+
+  // The path to rbenv's binary
+  "rbenv_path":  "~/.rbenv/bin/rbenv",
+
+  // If you want issues to be marked automatically inside the view
+  // set this to true.
+  //
+  // Attention ST2 users: Using that functionality consumes a bit
+  // of time, so ST2 might be a bit unresponsive when saving. As soon
+  // as you encounter performance problems during saving a ruby file you
+  // should set this to false.
+  "mark_issues_in_view": true,
+
+  // Auto correct feature warning message
+  "show_auto_correct_warning": true
+}

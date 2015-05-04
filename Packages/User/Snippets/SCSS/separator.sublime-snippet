@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+//###################################################################
+//# $1
+//###################################################################
+]]></content>
+  <tabTrigger>sep</tabTrigger>
+  <description>Define a new block separator</description>
+  <scope>source.scss</scope>
+</snippet>

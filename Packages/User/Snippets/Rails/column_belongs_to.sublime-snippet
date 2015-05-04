@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.belongs_to ${1:parent}${2:${3:, null: false}${4:, index: true}}
+]]></content>
+  <tabTrigger>tb</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.belongs_to</description>
+</snippet>

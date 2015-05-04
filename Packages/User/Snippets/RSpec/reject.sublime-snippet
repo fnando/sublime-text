@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+it { should_not accept(${1:values}).for(:${2:attribute}) }
+]]></content>
+  <tabTrigger>reject</tabTrigger>
+  <scope>source.ruby.rspec</scope>
+</snippet>

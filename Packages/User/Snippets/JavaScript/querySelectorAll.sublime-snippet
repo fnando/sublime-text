@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[document.querySelectorAll("$1")$0]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>qsa</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

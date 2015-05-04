@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} < ApplicationController
+  $0
+end
+]]></content>
+  <tabTrigger>controller</tabTrigger>
+  <scope>source.ruby.rails</scope>
+</snippet>

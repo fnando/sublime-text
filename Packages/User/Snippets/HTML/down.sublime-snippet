@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[&#x2193;]]></content>
+  <tabTrigger>down</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
+

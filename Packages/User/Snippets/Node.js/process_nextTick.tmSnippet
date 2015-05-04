@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>process.nextTick(function(){
+  $1
+});</string>
+	<key>name</key>
+	<string>process.nextTick</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tick</string>
+	<key>uuid</key>
+	<string>2FF1D047-3AFC-4A24-9484-8C88D1E31A49</string>
+</dict>
+</plist>

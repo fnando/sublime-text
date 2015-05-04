@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+add_index ${1:table}, ${2:column}, unique: true
+]]></content>
+  <tabTrigger>ai</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>add_index unique: true</description>
+</snippet>

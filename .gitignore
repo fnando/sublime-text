@@ -1,0 +1,27 @@
+.DS_Store
+/Local
+/Cache
+/Index
+/Settings/BufferScroll.bin.gz
+/Packages/*
+!/Packages/User
+/Packages/User/*
+!/Packages/User/*.sublime-settings
+!/Packages/User/*.py
+!/Packages/User/Snippets
+!/Packages/User/Builders
+/Installed\ Packages
+/Packages/User/Gist.sublime-settings
+/Packages/User/MarkdownPreview.sublime-settings
+/Packages/User/Package Control.last-run
+/Packages/User/Package Control.ca-list
+/Packages/User/Package Control.ca-bundle
+/Packages/User/Package Control.system-ca-bundle
+/Packages/User/Package Control.cache/
+/Packages/User/Package Control.ca-certs/
+/Packages/User/Package Control.cache/*
+/Packages/User/Gist.sublime-settings
+/Backup
+*.chback
+*.cache
+*.tmp

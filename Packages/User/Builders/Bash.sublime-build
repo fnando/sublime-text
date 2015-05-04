@@ -1,0 +1,5 @@
+{
+  "cmd": ["bash", "$file"],
+  "selector": "source.shell",
+  "working_dir": "${project_path:${folder}}"
+}

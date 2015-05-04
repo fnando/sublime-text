@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require "pry"; require "pry-remote"; binding.remote_pry</string>
+	<key>name</key>
+	<string>remote debug</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>rdebug</string>
+	<key>uuid</key>
+	<string>EC3D7DB8-54A7-42FD-BAFD-6DA060E1869F</string>
+</dict>
+</plist>

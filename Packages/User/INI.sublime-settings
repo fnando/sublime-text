@@ -1,0 +1,18 @@
+{
+	"apply_syntax_extensions":
+	[
+		".gitignore",
+		".gitattributes",
+		"ini.dist",
+		".npmrc",
+		".gitconfig"
+	],
+	"extensions":
+	[
+		".gitignore",
+		".gitattributes",
+		"ini.dist",
+		".npmrc",
+		".gitconfig"
+	]
+}

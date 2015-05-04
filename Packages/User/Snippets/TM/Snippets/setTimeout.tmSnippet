@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>setTimeout(function(){
+  $2
+}, ${1:500});</string>
+	<key>name</key>
+	<string>setTimeout</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>set</string>
+	<key>uuid</key>
+	<string>1C86F841-1B07-4EED-8DB8-571BE8DE3AF4</string>
+</dict>
+</plist>

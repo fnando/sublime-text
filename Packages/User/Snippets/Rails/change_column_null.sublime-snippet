@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+change_column_null ${1:table}, ${2:column}, ${3:false}
+]]></content>
+  <tabTrigger>cn</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>change_column_null</description>
+</snippet>

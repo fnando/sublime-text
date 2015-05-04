@@ -1,0 +1,5 @@
+{
+  "cmd": ["rspec", "$file"],
+  "selector": "source.ruby.rspec",
+  "working_dir": "${project_path:${folder}}"
+}

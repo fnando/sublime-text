@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+module ${1:ModuleName}
+  extend ActiveSupport::Concern
+
+  included do
+  end
+end
+]]></content>
+  <tabTrigger>concern</tabTrigger>
+  <scope>source.ruby.rails</scope>
+</snippet>

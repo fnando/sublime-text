@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Handlebars.registerHelper("${1:name}", function() {
+  return ${0: "hello there!"};
+});
+]]></content>
+  <tabTrigger>rh</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

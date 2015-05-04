@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.datetime ${1:column_name}${2:${3:, null: false}}
+]]></content>
+  <tabTrigger>td</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.datetime</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[&#x2192;]]></content>
+  <tabTrigger>right</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
+

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.references ${1:parent}${2:${3:, null: false}${4:, index: true}}
+]]></content>
+  <tabTrigger>tr</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.references</description>
+</snippet>

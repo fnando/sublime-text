@@ -1,0 +1,110 @@
+{
+  "new_file_syntax": "Better Ruby/Ruby",
+  "reraise_exceptions": true,
+
+  "syntaxes": [
+    {
+      "name": "Ansible/Ansible",
+      "rules": [
+        {"file_name": ".*\\main.yml$"},
+        {"file_name": ".*\\*.yml$"},
+      ]
+    },
+
+    {
+      "name": "Rails/Ruby on Rails",
+      "rules": [
+        {"file_name": ".*Berksfile$"},
+        {"file_name": "\\.rb$"},
+      ]
+    },
+
+    {
+      "name": "Sass/Syntaxes/Sass",
+      "rules": [
+        {"file_name": ".*\\.sass$"},
+      ]
+    },
+
+    {
+      "name": "Better RSpec/RSpec",
+      "rules": [
+        {"file_name": ".*\\spec_\\.rb$"},
+        {"file_name": ".*\\spec_helper\\.rb$"},
+      ]
+    },
+
+    {
+      "name": "Better Ruby/Ruby",
+      "rules": [
+        {"file_name": ".*\\Gemfile$"},
+        {"file_name": ".*\\Capfile$"},
+        {"file_name": ".*\\Guardfile$"},
+        {"file_name": ".*\\[Rr]akefile$"},
+        {"file_name": ".*\\Vagrantfile(\\..*)?$"},
+        {"file_name": ".*\\Berksfile$"},
+        {"file_name": ".*\\Thorfile$"},
+        {"file_name": ".*\\.thor$"},
+        {"file_name": ".*\\config.ru$"},
+        {"file_name": ".*\\.rake$"},
+        {"file_name": ".*\\.simplecov$"},
+        {"binary": "ruby"},
+        {"extensions": [
+          "thor", "rake", "simplecov", "jbuilder", "rb", "rabl"
+        ]}
+      ]
+    },
+
+    {
+      "name": "Jinja2/Syntaxes/Jinja Templates",
+      "rules": [
+        {"file_name": ".*\\.j2$"}
+      ]
+    },
+
+    {
+      "name": "YAML/YAML",
+      "rules": [
+        {"file_name": ".*\\Procfile$"}
+      ]
+    },
+
+    {
+      "name": "INI/INI",
+      "rules": [
+        {"file_name": ".*\\chefignore$"},
+        {"file_name": ".*\\cfg$"},
+        {"file_name": ".*\\hosts$"},
+        {"file_name": ".*\\.env$"}
+      ]
+    },
+
+    {
+      "name": "Jasmine/Syntaxes/Jasmine",
+      "rules": [
+        {"file_name": ".*\\.js$"}
+      ]
+    },
+
+    {
+      "name": "Coffeescript",
+      "rules": [
+        {"file_name": "\\.coffee$"}
+      ]
+    },
+
+    {
+      "name": "JavaScript/JSON",
+      "rules": [
+        {"file_name": ".*\\.bowerrc$"}
+      ]
+    },
+
+    {
+      "name": "JavaScript/JavaScript",
+      "rules": [
+        {"file_name": ".*\\.es6$"}
+      ]
+    }
+  ]
+}

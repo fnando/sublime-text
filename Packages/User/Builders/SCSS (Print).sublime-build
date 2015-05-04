@@ -1,0 +1,4 @@
+{
+  "cmd": ["ruby", "-S", "scss", "--style", "expanded", "$file"],
+  "selector": "source.scss"
+}

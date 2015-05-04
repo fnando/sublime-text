@@ -1,0 +1,132 @@
+{
+	"added_words":
+	[
+		"transpiling",
+		"apps"
+	],
+	"auto_close_tags": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html,source.css"
+		}
+	],
+	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"close_affected_buffers_when_deleting_even_if_dirty": true,
+	"close_windows_when_empty": false,
+	"color_pick_upcase": false,
+	"color_scheme": "Packages/User/Espresso Soda (SL).tmTheme",
+	"detect_indentation": false,
+	"drag_text": false,
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		".git",
+		"*.pyc",
+		"*.exe",
+		".DS_Store",
+		"*.log",
+    ".tags",
+    ".tags_sorted_by_file",
+    ".gemtags"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".jhw-cache",
+		"tmp",
+		"coverage",
+		"log",
+		".sass-cache",
+		"node_modules",
+		"pkg",
+		".bundle",
+		".grunt",
+		".vagrant",
+		".tmp",
+		"bower_components",
+		"vendor",
+		"dist",
+    "output"
+	],
+	"font_face": "Menlo",
+	"font_size": 18,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+    "ActionScript 3",
+    "ActionScript",
+    "ASP",
+    "C#",
+    "C++",
+    "D",
+    "Erlang",
+    "Graphviz",
+    "Groovy",
+    "Haskell",
+    "HTML",
+    "Java",
+    "LaTex",
+    "Lisp",
+    "Lua",
+    "Matlab",
+    "OCaml",
+    "Pascal",
+    "Perl",
+    "R",
+    "RestructuredText",
+    "Ruby",
+    "Scala",
+    "sublimelint",
+    "TCL",
+    "Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": false,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": false,
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"show_panel_on_build": true,
+	"show_tab_close_buttons": true,
+	"soda_folder_icons": true,
+	"tab_completion": true,
+	"tab_size": 2,
+	"theme": "El Capitan.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}

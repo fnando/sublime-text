@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.string ${1:column_name}${2:${3:, null: false}${4:, default: ''}}
+]]></content>
+  <tabTrigger>ts</tabTrigger>
+  <scope>source.ruby.rails</scope>
+  <description>t.string</description>
+</snippet>

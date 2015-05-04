@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+before_action :${1:method_name}
+]]></content>
+  <tabTrigger>ba</tabTrigger>
+  <scope>source.ruby.rails</scope>
+</snippet>

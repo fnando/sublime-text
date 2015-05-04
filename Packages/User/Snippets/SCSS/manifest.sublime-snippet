@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+// Load 3rd-party libs.
+// ...
+
+// Load core files.
+// @import 'core/settings';
+// @import 'core/general';
+
+// Load remaining files.
+// @import 'helpers/**/*';
+// @import 'modules/**/*';
+// @import 'pages/**/*';
+]]></content>
+  <tabTrigger>manifest</tabTrigger>
+  <scope>source.scss</scope>
+</snippet>
