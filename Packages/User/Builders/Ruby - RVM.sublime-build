@@ -1,0 +1,5 @@
+{
+  "cmd": ["rvm-auto-ruby", "$file"],
+  "selector": "source.ruby",
+  "working_dir": "${project_path:${folder}}"
+}

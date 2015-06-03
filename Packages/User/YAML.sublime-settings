@@ -7,8 +7,8 @@
 	],
 	"extensions":
 	[
+		".gemrc",
 		"yml",
-		"yml.dist",
-		".gemrc"
+		"yml.dist"
 	]
 }

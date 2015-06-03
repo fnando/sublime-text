@@ -12,84 +12,52 @@
     },
 
     {
-      "name": "Rails/Ruby on Rails",
-      "rules": [
-        {"file_name": ".*Berksfile$"},
-        {"file_name": "\\.rb$"},
-      ]
+        "syntax": "Better Ruby/Ruby",
+        "extensions": ["thor", "rake", "simplecov", "jbuilder", "rb", "podspec", "rabl"],
+        "rules": [
+            {"file_path": ".*(\\\\|/)Gemfile$"},
+            {"file_path": ".*(\\\\|/)Capfile$"},
+            {"file_path": ".*(\\\\|/)Guardfile$"},
+            {"file_path": ".*(\\\\|/)[Rr]akefile$"},
+            {"file_path": ".*(\\\\|/)Berksfile$"},
+            {"file_path": ".*(\\\\|/)[Cc]heffile$"},
+            {"file_path": ".*(\\\\|/)Thorfile$"},
+            {"file_path": ".*(\\\\|/)Podfile$"},
+            {"file_path": ".*(\\\\|/)config.ru$"},
+            {"file_path": ".*\\\\Vagrantfile(\\\\..*)?$"},
+            {"file_path": ".*/Vagrantfile(/..*)?$"},
+            {"interpreter": "ruby"}
+        ]
     },
 
     {
-      "name": "Sass/Syntaxes/Sass",
-      "rules": [
-        {"file_name": ".*\\.sass$"},
-      ]
-    },
-
-    {
-      "name": "Better RSpec/RSpec",
-      "rules": [
-        {"file_name": ".*\\spec_\\.rb$"},
-        {"file_name": ".*\\spec_helper\\.rb$"},
-      ]
-    },
-
-    {
-      "name": "Better Ruby/Ruby",
-      "rules": [
-        {"file_name": ".*\\Gemfile$"},
-        {"file_name": ".*\\Capfile$"},
-        {"file_name": ".*\\Guardfile$"},
-        {"file_name": ".*\\[Rr]akefile$"},
-        {"file_name": ".*\\Vagrantfile(\\..*)?$"},
-        {"file_name": ".*\\Berksfile$"},
-        {"file_name": ".*\\Thorfile$"},
-        {"file_name": ".*\\.thor$"},
-        {"file_name": ".*\\config.ru$"},
-        {"file_name": ".*\\.rake$"},
-        {"file_name": ".*\\.simplecov$"},
-        {"binary": "ruby"},
-        {"extensions": [
-          "thor", "rake", "simplecov", "jbuilder", "rb", "rabl"
-        ]}
-      ]
+        "syntax": "Rails/Ruby on Rails",
+        "rules": [
+            {"function": {"name": "is_rails_file", "source": "ApplySyntax/is_rails_file"}}
+        ]
     },
 
     {
       "name": "Jinja2/Syntaxes/Jinja Templates",
       "rules": [
-        {"file_name": ".*\\.j2$"}
+        {"file_path": ".*\\.j2$"}
       ]
     },
 
     {
       "name": "YAML/YAML",
       "rules": [
-        {"file_name": ".*\\Procfile$"}
+        {"file_path": ".*\\Procfile$"}
       ]
     },
 
     {
       "name": "INI/INI",
       "rules": [
-        {"file_name": ".*\\chefignore$"},
-        {"file_name": ".*\\cfg$"},
-        {"file_name": ".*\\hosts$"},
-        {"file_name": ".*\\.env$"}
-      ]
-    },
-
-    {
-      "name": "Jasmine/Syntaxes/Jasmine",
-      "rules": [
-        {"file_name": ".*\\.js$"}
-      ]
-    },
-
-    {
-      "name": "Coffeescript",
-      "rules": [
-        {"file_name": "\\.coffee$"}
+        {"file_path": ".*\\chefignore$"},
+        {"file_path": ".*\\cfg$"},
+        {"file_path": ".*\\hosts$"},
+        {"file_path": ".*\\.env$"}
       ]
     },
 
@@ -97,13 +65,6 @@
       "name": "JavaScript/JSON",
       "rules": [
         {"file_name": ".*\\.bowerrc$"}
-      ]
-    },
-
-    {
-      "name": "JavaScript/JavaScript",
-      "rules": [
-        {"file_name": ".*\\.es6$"}
       ]
     }
   ]

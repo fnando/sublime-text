@@ -5,5 +5,5 @@ class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} < Applica
 end
 ]]></content>
   <tabTrigger>controller</tabTrigger>
-  <scope>source.ruby.rails</scope>
+  <scope>source.ruby</scope>
 </snippet>
