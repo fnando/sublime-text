@@ -21,6 +21,7 @@
 /Packages/User/Package Control.ca-certs/
 /Packages/User/Package Control.cache/*
 /Packages/User/Gist.sublime-settings
+/Packages/User/TextPastryHistory.sublime-settings
 /Backup
 *.chback
 *.cache
