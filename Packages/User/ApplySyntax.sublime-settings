@@ -6,8 +6,8 @@
     {
       "name": "Ansible/Ansible",
       "rules": [
-        {"file_name": ".*\\main.yml$"},
-        {"file_name": ".*\\*.yml$"},
+        {"file_path": ".*\\main.yml$"},
+        {"file_path": ".*\\*.yml$"},
       ]
     },
 
@@ -64,7 +64,7 @@
     {
       "name": "JavaScript/JSON",
       "rules": [
-        {"file_name": ".*\\.bowerrc$"}
+        {"file_path": ".*\\.bowerrc$"}
       ]
     }
   ]
