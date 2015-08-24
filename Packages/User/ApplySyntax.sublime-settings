@@ -7,34 +7,54 @@
       "name": "Ansible/Ansible",
       "rules": [
         {"file_path": ".*\\main.yml$"},
-        {"file_path": ".*\\*.yml$"},
+        {"file_path": ".*\\*.yml$"}
       ]
     },
 
     {
-        "syntax": "Better Ruby/Ruby",
-        "extensions": ["thor", "rake", "simplecov", "jbuilder", "rb", "podspec", "rabl"],
-        "rules": [
-            {"file_path": ".*(\\\\|/)Gemfile$"},
-            {"file_path": ".*(\\\\|/)Capfile$"},
-            {"file_path": ".*(\\\\|/)Guardfile$"},
-            {"file_path": ".*(\\\\|/)[Rr]akefile$"},
-            {"file_path": ".*(\\\\|/)Berksfile$"},
-            {"file_path": ".*(\\\\|/)[Cc]heffile$"},
-            {"file_path": ".*(\\\\|/)Thorfile$"},
-            {"file_path": ".*(\\\\|/)Podfile$"},
-            {"file_path": ".*(\\\\|/)config.ru$"},
-            {"file_path": ".*\\\\Vagrantfile(\\\\..*)?$"},
-            {"file_path": ".*/Vagrantfile(/..*)?$"},
-            {"interpreter": "ruby"}
-        ]
+      "syntax": "Better Ruby/Bundler",
+      "rules": [
+        {"file_path": ".*(\\\\|/)Gemfile$"}
+      ]
     },
 
     {
-        "syntax": "Rails/Ruby on Rails",
-        "rules": [
-            {"function": {"name": "is_rails_file", "source": "ApplySyntax/is_rails_file"}}
-        ]
+      "syntax": "Better Ruby/Puma",
+      "rules": [
+        {"file_path": ".*(\\\\|/)puma\\.rb$"}
+      ]
+    },
+
+    {
+      "syntax": "Better Ruby/Ruby Test",
+      "rules": [
+        {"file_path": ".*_test\\.rb$"}
+      ]
+    },
+
+    {
+      "name": "Better Rails/Ruby on Rails",
+      "rules": [
+        {"function": {"name": "is_rails_file", "source": "ApplySyntax/is_rails_file"}}
+      ]
+    },
+
+    {
+      "syntax": "Better Ruby/Ruby",
+      "extensions": ["thor", "rake", "simplecov", "jbuilder", "rb", "podspec", "rabl"],
+      "rules": [
+        {"file_path": ".*(\\\\|/)Capfile$"},
+        {"file_path": ".*(\\\\|/)Guardfile$"},
+        {"file_path": ".*(\\\\|/)[Rr]akefile$"},
+        {"file_path": ".*(\\\\|/)Berksfile$"},
+        {"file_path": ".*(\\\\|/)[Cc]heffile$"},
+        {"file_path": ".*(\\\\|/)Thorfile$"},
+        {"file_path": ".*(\\\\|/)Podfile$"},
+        {"file_path": ".*(\\\\|/)config.ru$"},
+        {"file_path": ".*\\\\Vagrantfile(\\\\..*)?$"},
+        {"file_path": ".*/Vagrantfile(/..*)?$"},
+        {"interpreter": "ruby"}
+      ]
     },
 
     {
@@ -58,6 +78,13 @@
         {"file_path": ".*\\cfg$"},
         {"file_path": ".*\\hosts$"},
         {"file_path": ".*\\.env$"}
+      ]
+    },
+
+    {
+      "name": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
+      "rules": [
+        {"file_path": ".*\\.es6$"}
       ]
     },
 

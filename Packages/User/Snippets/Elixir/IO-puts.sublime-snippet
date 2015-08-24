@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+IO.puts $0
+]]></content>
+  <tabTrigger>puts</tabTrigger>
+  <scope>source.elixir</scope>
+</snippet>
