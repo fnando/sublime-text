@@ -12,6 +12,13 @@
     },
 
     {
+      "syntax": "Better RSpec/Better RSpec",
+      "rules": [
+        {"file_path": ".*(\\\\|/).*_spec\\.rb$"}
+      ]
+    },
+
+    {
       "syntax": "Better Ruby/Bundler",
       "rules": [
         {"file_path": ".*(\\\\|/)Gemfile$"}
