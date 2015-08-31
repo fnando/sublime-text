@@ -4,6 +4,13 @@
 
   "syntaxes": [
     {
+      "name": "MarkdownEditing/Markdown GFM",
+      "rules": [
+        {"file_path": "\\.md$"}
+      ]
+    },
+
+    {
       "name": "Ansible/Ansible",
       "rules": [
         {"file_path": ".*\\main.yml$"},

@@ -1,5 +1,5 @@
 {
-  "blacklist_syntaxes": ["Ruby", "CSS", "SQL", "JavaScript", "Python", "PHP", "JSON"],
+  "whitelist_syntaxes": ["Markdown"],
   "enable_count_pages": false,
   "enable_readtime": true,
   "readtime_wpm": 180
