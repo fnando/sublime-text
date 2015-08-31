@@ -1,6 +1,6 @@
 {
   "new_file_syntax": "Better Ruby/Ruby",
-  "reraise_exceptions": true,
+  "reraise_exceptions": false,
 
   "syntaxes": [
     {
