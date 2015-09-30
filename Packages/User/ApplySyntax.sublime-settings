@@ -96,6 +96,13 @@
     },
 
     {
+      "name": "Better QUnit/QUnit",
+      "rules": [
+        {"file_path": ".*_test\\.js$"}
+      ]
+    },
+
+    {
       "name": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
       "rules": [
         {"file_path": ".*\\.es6$"}

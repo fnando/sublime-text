@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+${TM_QUOTE}hello${TM_QUOTE}
+]]></content>
+  <tabTrigger>quote</tabTrigger>
+  <scope></scope>
+</snippet>
