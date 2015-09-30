@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -27,7 +28,6 @@
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"EJS",
-		"ElixirSublime",
 		"Ember.js Snippets",
 		"Emmet",
 		"Expand Selection to Quotes",
@@ -58,8 +58,8 @@
 		"SqlBeautifier",
 		"StringEncode",
 		"SublimeERB",
+		"SublimeHighlight",
 		"SublimeLinter",
-		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
@@ -77,7 +77,8 @@
 	],
 	"repositories":
 	[
-		"https://gist.githubusercontent.com/fnando/56393d3900af55bf9e94/raw/repositories.json"
+		"https://gist.githubusercontent.com/fnando/56393d3900af55bf9e94/raw/repositories.json",
+		"https://github.com/n1k0/SublimeHighlight/tree/python3"
 	],
 	"submit_usage": true
 }

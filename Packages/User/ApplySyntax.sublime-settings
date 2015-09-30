@@ -49,7 +49,7 @@
     {
       "name": "Better Rails/Ruby on Rails",
       "rules": [
-        {"function": {"name": "is_rails_file", "source": "ApplySyntax/is_rails_file"}}
+        {"function": {"source": "ApplySyntax.as_plugins.is_rails_file"}}
       ]
     },
 

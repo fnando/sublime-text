@@ -7,6 +7,18 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+            "elixirc": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "include_dirs": [],
+                "pa": []
+            },
+            "elixirlinter": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmltidy": {
                 "@disable": false,
                 "args": [],
@@ -25,7 +37,10 @@
             },
             "rubocop": {
                 "@disable": false,
-                "args": ["--config", "~/.rubocop.yml"],
+                "args": [
+                    "--config",
+                    "~/.rubocop.yml"
+                ],
                 "excludes": []
             },
             "ruby": {

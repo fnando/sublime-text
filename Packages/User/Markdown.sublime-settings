@@ -1,6 +1,7 @@
 {
   "extensions": ["md"],
   "color_scheme": "Packages/User/SublimeLinter/MarkdownEditor (SL).tmTheme",
+  // "color_scheme": "Packages/User/Espresso Soda (SL).tmTheme",
   "line_numbers": false,
   "font_size": 17,
   "rulers": [],
