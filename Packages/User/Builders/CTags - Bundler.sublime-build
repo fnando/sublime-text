@@ -1,4 +1,0 @@
-{
-  "cmd": ["rvm-auto-ruby", "-S", "ruby-ctags", "$project_path"],
-  "working_dir": "${project_path:${folder}}"
-}

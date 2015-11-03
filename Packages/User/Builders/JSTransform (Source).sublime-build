@@ -1,5 +1,0 @@
-{
-  "cmd": ["jstransform", "$file"],
-  "selector": "source.js",
-  "working_dir": "${project_path:${folder}}"
-}

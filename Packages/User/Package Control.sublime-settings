@@ -22,7 +22,6 @@
 		"BufferScroll",
 		"ChangeQuotes",
 		"ColorPicker",
-		"CTags",
 		"DashDoc",
 		"Dictionaries",
 		"DocBlockr",
@@ -60,9 +59,9 @@
 		"SublimeERB",
 		"SublimeHighlight",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-html-tidy",
-		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
@@ -70,9 +69,6 @@
 		"Switch Case",
 		"Text Pastry",
 		"Theme - El Capitan",
-		"Theme - Soda",
-		"TomDoc",
-		"Tomorrow Color Schemes",
 		"WordCount"
 	],
 	"repositories":
