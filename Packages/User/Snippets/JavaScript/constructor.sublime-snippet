@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[constructor() {
+  $0
+}]]></content>
+  <tabTrigger>cons</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

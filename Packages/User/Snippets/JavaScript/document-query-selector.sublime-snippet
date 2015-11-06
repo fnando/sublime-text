@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-document.querySelector("|");
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>dqs</tabTrigger>
-  <!-- <scope>source.javascript</scope> -->
-  <scope>source.html</scope>
-</snippet>

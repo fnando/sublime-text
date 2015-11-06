@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-'use strict';
+${TM_QUOTE}use strict${TM_QUOTE};
 ]]></content>
   <tabTrigger>us</tabTrigger>
   <scope>source.js</scope>

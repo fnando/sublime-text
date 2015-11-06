@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require('$1')$0</string>
+	<string>require(${TM_QUOTE}$1${TM_QUOTE})$0</string>
 	<key>name</key>
 	<string>require</string>
 	<key>scope</key>

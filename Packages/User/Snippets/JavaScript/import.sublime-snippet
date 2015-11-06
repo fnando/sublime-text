@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[import ${1:var} from ${TM_QUOTE}${2:path}${TM_QUOTE};]]></content>
+  <tabTrigger>import</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

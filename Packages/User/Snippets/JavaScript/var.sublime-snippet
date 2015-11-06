@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[var ${1:varname} = ${2:value};$0]]></content>
+  <content><![CDATA[var ${1:varname} = ${2:value};]]></content>
   <tabTrigger>v</tabTrigger>
   <scope>source.js</scope>
 </snippet>

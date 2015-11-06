@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require.resolve('$1');</string>
+	<string>require.resolve(${TM_QUOTE}$1${TM_QUOTE});</string>
 	<key>name</key>
 	<string>require.resolve</string>
 	<key>scope</key>

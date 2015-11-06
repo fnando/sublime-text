@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[document.createElement("$1");$0]]></content>
+  <content><![CDATA[document.createElement(${TM_QUOTE}$1${TM_QUOTE});]]></content>
   <tabTrigger>dce</tabTrigger>
   <scope>source.js</scope>
 </snippet>
