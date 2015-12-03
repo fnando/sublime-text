@@ -1,9 +1,9 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "error_color": "D21E19",
+        "gutter_theme": "Packages/User/sublimelinter/gutter-theme/User.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
@@ -15,6 +15,11 @@
                 "pa": []
             },
             "elixirlinter": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "eslint": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
@@ -35,12 +40,14 @@
                 "excludes": [],
                 "strict": true
             },
+            "pyyaml": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "rubocop": {
                 "@disable": false,
-                "args": [
-                    "--config",
-                    "~/.rubocop.yml"
-                ],
+                "args": [],
                 "excludes": []
             },
             "ruby": {
@@ -60,22 +67,9 @@
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
-            "osx": [
-                "~/local/bin",
-                "./node_modules/.bin",
-                "./bin",
-                "~/local/ruby/gems/bin",
-                "~/local/npm/bin",
-                "~/local/ruby/current/bin",
-                "~/.bash/bin",
-                "~/.zsh/bin",
-                "/usr/local/bin",
-                "/usr/local/sbin",
-                "/usr/bin",
-                "/usr/sbin",
-                "/bin",
-                "/sbin"
-            ]
+            "linux": [],
+            "osx": [],
+            "windows": []
         },
         "python_paths": {
             "linux": [],
@@ -87,13 +81,20 @@
         "show_errors_on_save": false,
         "show_marks_in_minimap": true,
         "syntax_map": {
+            "bundler": "ruby",
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
+            "javascript (babel)": "javascript",
+            "javascript next": "javascript",
+            "json (javascript next)": "json",
             "php": "html",
-            "python django": "python"
+            "puma": "ruby",
+            "python django": "python",
+            "rails": "ruby",
+            "ruby test": "ruby"
         },
-        "warning_color": "DDB700",
+        "warning_color": "F6A620",
         "wrap_find": true
     }
 }

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[console.log(${TM_QUOTE}${1:var}:${TM_QUOTE}, ${1});]]></content>
+  <tabTrigger>logv</tabTrigger>
+  <scope>source.js</scope>
+  <description>console.log(var)</description>
+</snippet>

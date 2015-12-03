@@ -4,14 +4,14 @@
 
   "syntaxes": [
     {
-      "name": "MarkdownEditing/Markdown GFM",
+      "syntax": "MarkdownEditing/Markdown GFM",
       "rules": [
         {"file_path": "\\.md$"}
       ]
     },
 
     {
-      "name": "Ansible/Ansible",
+      "syntax": "Ansible/Ansible",
       "rules": [
         {"file_path": ".*\\main.yml$"},
         {"file_path": ".*\\*.yml$"}
@@ -47,7 +47,7 @@
     },
 
     {
-      "name": "Better Rails/Ruby on Rails",
+      "syntax": "Better Rails/Ruby on Rails",
       "rules": [
         {"function": {"source": "ApplySyntax.as_plugins.is_rails_file"}}
       ]
@@ -72,21 +72,21 @@
     },
 
     {
-      "name": "Jinja2/Syntaxes/Jinja Templates",
+      "syntax": "Jinja2/Syntaxes/Jinja Templates",
       "rules": [
         {"file_path": ".*\\.j2$"}
       ]
     },
 
     {
-      "name": "YAML/YAML",
+      "syntax": "YAML/YAML",
       "rules": [
         {"file_path": ".*\\Procfile$"}
       ]
     },
 
     {
-      "name": "INI/INI",
+      "syntax": "INI/INI",
       "rules": [
         {"file_path": ".*\\chefignore$"},
         {"file_path": ".*\\cfg$"},
@@ -96,21 +96,21 @@
     },
 
     {
-      "name": "Better QUnit/QUnit",
+      "syntax": "Better QUnit/QUnit",
       "rules": [
         {"file_path": ".*_test\\.js$"}
       ]
     },
 
     {
-      "name": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
+      "syntax": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
       "rules": [
         {"file_path": ".*\\.es6$"}
       ]
     },
 
     {
-      "name": "JavaScript/JSON",
+      "syntax": "JavaScript/JSON",
       "rules": [
         {"file_path": ".*\\.bowerrc$"}
       ]

@@ -1,5 +1,6 @@
 <snippet>
-  <content><![CDATA[console.log(${TM_QUOTE}${1:var}:${TM_QUOTE}, ${1});]]></content>
+  <content><![CDATA[console.log(${TM_QUOTE}${0}${TM_QUOTE});]]></content>
   <tabTrigger>log</tabTrigger>
   <scope>source.js</scope>
+  <description>console.log</description>
 </snippet>

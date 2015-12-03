@@ -2,7 +2,10 @@
 	"added_words":
 	[
 		"transpiling",
-		"apps"
+		"apps",
+		"mindmap",
+		"mindmaps",
+		"posts"
 	],
 	"auto_close_tags": true,
 	"auto_complete": true,
@@ -65,10 +68,12 @@
 		".tmp",
 		"bower_components",
 		"dist",
-		"output"
+		"output",
+		"public",
+		"vendor"
 	],
 	"font_face": "Hack",
-	"font_size": 18,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -82,13 +87,14 @@
 		"Clojure",
 		"CTags",
 		"D",
+		"EditorConfig",
 		"Graphviz",
 		"Groovy",
 		"Haskell",
 		"Java",
 		"Jinja2",
-		"LaTeX",
 		"LaTex",
+		"LaTeX",
 		"Lisp",
 		"Lua",
 		"Markdown",
