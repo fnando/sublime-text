@@ -2,10 +2,7 @@
 	"added_words":
 	[
 		"transpiling",
-		"apps",
-		"mindmap",
-		"mindmaps",
-		"posts"
+		"apps"
 	],
 	"auto_close_tags": true,
 	"auto_complete": true,
@@ -29,7 +26,6 @@
 	"color_pick_upcase": false,
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -45,9 +41,7 @@
 		"*.log",
 		".tags",
 		".tags_sorted_by_file",
-		".gemtags",
-		".ruby-ctags",
-		".js-ctags"
+		".gemtags"
 	],
 	"folder_exclude_patterns":
 	[
@@ -67,10 +61,10 @@
 		".vagrant",
 		".tmp",
 		"bower_components",
+		"vendor",
 		"dist",
 		"output",
-		"public",
-		"vendor"
+		"_build"
 	],
 	"font_face": "Hack",
 	"font_size": 17,
@@ -78,23 +72,20 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"AAAPackageDev",
 		"ActionScript",
 		"ActionScript 3",
 		"ASP",
 		"C#",
 		"C++",
-		"Clojure",
 		"CTags",
 		"D",
 		"EditorConfig",
+		"Erlang",
 		"Graphviz",
 		"Groovy",
 		"Haskell",
 		"Java",
-		"Jinja2",
 		"LaTex",
-		"LaTeX",
 		"Lisp",
 		"Lua",
 		"Markdown",
@@ -107,9 +98,7 @@
 		"RestructuredText",
 		"Ruby",
 		"Scala",
-		"Swift",
 		"TCL",
-		"Theme - Soda",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -118,8 +107,8 @@
 		"draw_active"
 	],
 	"indent_to_bracket": false,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"match_brackets": true,
 	"match_brackets_angle": true,
 	"match_brackets_braces": true,

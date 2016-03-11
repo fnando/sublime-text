@@ -87,7 +87,7 @@
     "context": [{
       "key": "selector",
       "operator": "equal",
-      "operand": "text.html.ruby, source.yaml, source.css, source.scss, source.js"
+      "operand": "text.html.ruby, text.html.elixir, source.yaml, source.css, source.scss, source.js"
     }]
   },
   {
