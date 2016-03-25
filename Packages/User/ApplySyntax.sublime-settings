@@ -98,7 +98,8 @@
     {
       "syntax": "Better QUnit/QUnit",
       "rules": [
-        {"file_path": ".*_test\\.js$"}
+        {"file_path": ".*_test\\.js$"},
+        {"file_path": ".*_test\\.es6$"}
       ]
     },
 
