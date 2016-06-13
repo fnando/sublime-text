@@ -99,14 +99,16 @@
       "syntax": "Better QUnit/QUnit",
       "rules": [
         {"file_path": ".*_test\\.js$"},
-        {"file_path": ".*_test\\.es6$"}
+        {"file_path": ".*_test\\.es6$"},
+        {"file_path": ".*_test\\.es$"}
       ]
     },
 
     {
       "syntax": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
       "rules": [
-        {"file_path": ".*\\.es6$"}
+        {"file_path": ".*\\.es6$"},
+        {"file_path": ".*\\.es$"}
       ]
     },
 

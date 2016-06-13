@@ -62,9 +62,9 @@
 		".tmp",
 		"bower_components",
 		"vendor",
-		"dist",
 		"output",
-		"_build"
+		"_build",
+		".shards"
 	],
 	"font_face": "Hack",
 	"font_size": 17,
@@ -73,7 +73,6 @@
 	"ignored_packages":
 	[
 		"ActionScript",
-		"ActionScript 3",
 		"ASP",
 		"C#",
 		"C++",
