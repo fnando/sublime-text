@@ -64,7 +64,8 @@
 		"vendor",
 		"output",
 		"_build",
-		".shards"
+		".shards",
+		"dist"
 	],
 	"font_face": "Hack",
 	"font_size": 17,
