@@ -19,7 +19,7 @@
     "keys": ["super+shift+w"],
     "command": "close_other_tabs"
   }, {
-    "keys": ["super+alt+ctrl+w"],
+    "keys": ["super+alt+shift+w"],
     "command": "close_other_windows"
   }, {
     "keys": ["super+alt+q"],
