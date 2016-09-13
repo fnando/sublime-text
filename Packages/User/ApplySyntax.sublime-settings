@@ -105,17 +105,22 @@
     },
 
     {
-      "syntax": "JavaScriptNext - ES6 Syntax/JavaScriptNext",
+      "syntax": "Babel/JavaScript (Babel)",
       "rules": [
         {"file_path": ".*\\.es6$"},
-        {"file_path": ".*\\.es$"}
+        {"file_path": ".*\\.es$"},
+        {"file_path": ".*\\.jsx$"},
+        {"file_path": ".*\\.js$"}
       ]
     },
 
     {
-      "syntax": "JavaScript/JSON",
+      "syntax": "Babel/JSON",
       "rules": [
-        {"file_path": ".*\\.bowerrc$"}
+        {"file_path": ".*\\.json$"},
+        {"file_path": ".*\\.bowerrc$"},
+        {"file_path": ".*\\.eslintrc$"},
+        {"file_path": ".*\\.babelrc$"}
       ]
     }
   ]
