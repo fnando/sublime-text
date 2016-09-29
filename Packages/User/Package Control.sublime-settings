@@ -27,6 +27,7 @@
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
+		"Elixir",
 		"Ember.js Snippets",
 		"Emmet",
 		"Expand Selection to Quotes",
@@ -58,6 +59,7 @@
 		"SublimeERB",
 		"SublimeHighlight",
 		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-html-tidy",
@@ -73,7 +75,11 @@
 	"repositories":
 	[
 		"https://gist.githubusercontent.com/fnando/56393d3900af55bf9e94/raw/repositories.json",
-		"https://github.com/n1k0/SublimeHighlight/tree/python3"
+		"https://github.com/n1k0/SublimeHighlight/tree/python3",
+		"https://github.com/titoBouzout/WordCount/tree/st3",
+		"https://github.com/titoBouzout/BufferScroll/tree/st3",
+		"https://github.com/titoBouzout/Dictionaries",
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
 	],
 	"submit_usage": true
 }

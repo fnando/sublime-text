@@ -2,7 +2,14 @@
 	"added_words":
 	[
 		"transpiling",
-		"apps"
+		"apps",
+		"frameworks",
+		"posts",
+		"Heroku",
+		"framework",
+		"Rails",
+		"Ruby",
+		"Phoenix"
 	],
 	"auto_close_tags": true,
 	"auto_complete": true,
@@ -27,6 +34,7 @@
 	"color_pick_upcase": false,
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
+	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -62,7 +70,6 @@
 		".vagrant",
 		".tmp",
 		"bower_components",
-		"vendor",
 		"output",
 		"_build",
 		".shards",
@@ -89,7 +96,6 @@
 		"LaTex",
 		"Lisp",
 		"Lua",
-		"Markdown",
 		"Matlab",
 		"OCaml",
 		"Pascal",
