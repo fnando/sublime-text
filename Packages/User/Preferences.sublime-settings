@@ -80,6 +80,7 @@
 	],
 	"font_face": "Hack",
 	"font_size": 17,
+	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -133,6 +134,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"show_line_endings": true,
+	"show_minimap": false,
 	"show_panel_on_build": true,
 	"show_tab_close_buttons": true,
 	"soda_folder_icons": true,
