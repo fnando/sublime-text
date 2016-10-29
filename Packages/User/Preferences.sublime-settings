@@ -9,7 +9,9 @@
 		"framework",
 		"Rails",
 		"Ruby",
-		"Phoenix"
+		"Phoenix",
+		"init",
+		"Turbolinks"
 	],
 	"auto_close_tags": true,
 	"auto_complete": true,
@@ -34,7 +36,7 @@
 	"color_pick_upcase": false,
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -73,7 +75,8 @@
 		"output",
 		"_build",
 		".shards",
-		"dist"
+		"dist",
+		"public/assets"
 	],
 	"font_face": "Hack",
 	"font_size": 17,
