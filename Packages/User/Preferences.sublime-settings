@@ -30,7 +30,7 @@
 	],
 	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
-	"caret_style": "phase",
+	"caret_style": "solid",
 	"close_affected_buffers_when_deleting_even_if_dirty": true,
 	"close_windows_when_empty": false,
 	"color_pick_upcase": false,
@@ -76,7 +76,11 @@
 		"_build",
 		".shards",
 		"dist",
-		"public/assets"
+		"public/assets",
+		"deps",
+		".nyc_output-client",
+		".nyc_output-server",
+		"flow-typed"
 	],
 	"font_face": "Hack",
 	"font_size": 17,
@@ -127,8 +131,6 @@
 	"match_brackets_square": true,
 	"rulers":
 	[
-		80,
-		100
 	],
 	"scroll_past_end": false,
 	"show_encoding": true,

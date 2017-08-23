@@ -1,104 +1,183 @@
 {
-    "user": {
-        "debug": true,
-        "delay": 0.25,
-        "error_color": "D21E19",
-        "gutter_theme": "Packages/User/sublimelinter/gutter-theme/User.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "elixirc": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "include_dirs": [],
-                "mix": false,
-                "pa": []
-            },
-            "elixirlinter": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "chdir": "${project}",
-                "excludes": ["node_modules/**/*"]
-            },
-            "htmltidy": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "json": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "strict": true
-            },
-            "pyyaml": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "rubocop": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "ruby": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "scss": {
-                "@disable": false,
-                "args": [],
-                "exclude-linter": "",
-                "excludes": [],
-                "include-linter": ""
-            }
-        },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [
-                "~/.rbenv/shims"
-            ],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "bundler": "ruby",
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "javascript next": "javascript",
-            "json (javascript next)": "json",
-            "php": "html",
-            "puma": "ruby",
-            "python django": "python",
-            "rails": "ruby",
-            "ruby test": "ruby"
-        },
-        "warning_color": "F6A620",
-        "wrap_find": true
-    }
+	"user":
+	{
+		"debug": false,
+		"delay": 0.25,
+		"error_color": "D21E19",
+		"gutter_theme": "Packages/User/sublimelinter/gutter-theme/User.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"elixirc":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"include_dirs":
+				[
+				],
+				"mix": false,
+				"pa":
+				[
+				]
+			},
+			"elixirlinter":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"eslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"chdir": "${project}",
+				"excludes":
+				[
+					"node_modules/**/*"
+				]
+			},
+			"htmltidy":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"json":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"strict": true
+			},
+			"pyyaml":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"rubocop":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"ruby":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"scss":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"exclude-linter": "",
+				"excludes":
+				[
+				],
+				"include-linter": ""
+			}
+		},
+		"mark_style": "outline",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"~/.rbenv/shims"
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": false,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"bundler": "ruby",
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"javascript (babel)": "javascript",
+			"javascript next": "javascript",
+			"json (javascript next)": "json",
+			"php": "html",
+			"puma": "ruby",
+			"python django": "python",
+			"rails": "ruby",
+			"ruby test": "ruby"
+		},
+		"tooltip_fontsize": "1rem",
+		"tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+		"tooltip_theme_excludes":
+		[
+		],
+		"tooltips": false,
+		"warning_color": "F6A620",
+		"wrap_find": true
+	}
 }

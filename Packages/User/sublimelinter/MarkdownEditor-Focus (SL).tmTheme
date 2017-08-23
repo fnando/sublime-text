@@ -92,8 +92,6 @@
             <string>invalid.illegal</string>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#F93232</string>
                 <key>fontStyle</key>
                 <string />
                 <key>foreground</key>
@@ -715,7 +713,7 @@
             <key>name</key>
             <string>Markup: Underline</string>
             <key>scope</key>
-            <string>markup.underline,markup.underline.link.markdown,constant.other.reference.link.markdown,meta.image.reference.markdown</string>
+            <string>markup.underline,markup.underline.link.markdown,constant.other.reference.link.markdown,meta.image.reference.markdown,meta.image.inline.markdown</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -879,16 +877,6 @@
         </dict>
     <dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F6A620</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -896,6 +884,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F6A620</string>
             </dict>
         </dict><dict>
             <key>name</key>
