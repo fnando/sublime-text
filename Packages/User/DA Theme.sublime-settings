@@ -1,0 +1,304 @@
+{
+	"skin":
+	{
+		"id": "sodish",
+		"settings":
+		{
+			"button_border_color":
+			[
+				"specify",
+				[
+					"rgba",
+					255,
+					255,
+					255,
+					0.05
+				],
+				[
+					"rgba",
+					0,
+					0,
+					0,
+					0.05
+				]
+			],
+			"button_border_width": 1,
+			"find_in_files_panel_padding":
+			[
+				12,
+				12,
+				12,
+				11
+			],
+			"find_n_replace_panel_padding":
+			[
+				12,
+				12,
+				6,
+				11
+			],
+			"grid_layout_border_color": "$status_bar_border_color",
+			"input_border_color":
+			[
+				"specify",
+				[
+					"rgba",
+					255,
+					255,
+					255,
+					0.075
+				],
+				[
+					"rgba",
+					0,
+					0,
+					0,
+					0.075
+				]
+			],
+			"overlay_background_color": "$status_bar_border_color",
+			"overlay_input_background_color": "$background_color",
+			"overlay_input_border_color": "$overlay_background_color",
+			"overlay_input_border_radius": 0,
+			"overlay_input_border_width":
+			[
+				0,
+				0,
+				0,
+				2
+			],
+			"overlay_input_padding":
+			[
+				10,
+				6,
+				10,
+				8
+			],
+			"overlay_padding": 6,
+			"overlay_scrollbar_margin": "$scrollbar_margin",
+			"overlay_shadow_opacity": 0.07,
+			"overlay_top_offset": 0,
+			"panel_background_color":
+			[
+				"specify",
+				[
+					"tint",
+					"$background_color",
+					0.01
+				],
+				[
+					"shade",
+					"$background_color",
+					0.01
+				]
+			],
+			"project_panel_background_color": "$quick_panel_background_color",
+			"project_panel_input_background_color": "$quick_panel_background_color",
+			"project_panel_input_border_width": 0,
+			"quick_panel_background_color": "$background_color",
+			"quick_panel_row_background_color_on_selected":
+			[
+				"specify",
+				[
+					"rgba",
+					255,
+					255,
+					255,
+					0.05
+				],
+				[
+					"rgba",
+					0,
+					0,
+					0,
+					0.05
+				]
+			],
+			"quick_panel_row_padding":
+			[
+				12,
+				9
+			],
+			"scrollbar_width": 8,
+			"show_overlay_input_search_icon": false,
+			"show_status_panel_button": true,
+			"show_tab_scroll_buttons": true,
+			"sidebar_background_color":
+			[
+				"specify",
+				[
+					"tint",
+					"$background_color",
+					0.03
+				],
+				[
+					"shade",
+					"$background_color",
+					0.03
+				]
+			],
+			"sidebar_border_color": "$status_bar_border_color",
+			"sidebar_border_width":
+			[
+				0,
+				0,
+				1,
+				0
+			],
+			"sidebar_file_icon_color_on_selected": "$icon_color_on_hover",
+			"sidebar_folder_icon_color_on_expanded": "",
+			"sidebar_folder_icon_color_on_expanded_hover": "",
+			"sidebar_folder_icon_color_on_selected": "$icon_color_on_hover",
+			"sidebar_label_foreground_color_on_expanded": "",
+			"sidebar_padding":
+			[
+				0,
+				0,
+				1,
+				0
+			],
+			"status_bar_background_color":
+			[
+				"shade",
+				"$background_color",
+				0.075
+			],
+			"status_bar_border_color":
+			[
+				"specify",
+				[
+					"tint",
+					"$background_color",
+					0.1
+				],
+				[
+					"shade",
+					"$background_color",
+					0.1
+				]
+			],
+			"status_bar_border_width_on_visible_panel":
+			[
+				0,
+				1,
+				0,
+				0
+			],
+			"status_button_border_color":
+			[
+				"specify",
+				[
+					"rgba",
+					255,
+					255,
+					255,
+					0.075
+				],
+				[
+					"rgba",
+					0,
+					0,
+					0,
+					0.075
+				]
+			],
+			"status_button_border_width":
+			[
+				1,
+				0,
+				0,
+				0
+			],
+			"status_button_padding":
+			[
+				13,
+				0,
+				12,
+				0
+			],
+			"tab_background_color":
+			[
+				"specify",
+				[
+					"tint",
+					"$background_color",
+					0.05
+				],
+				[
+					"shade",
+					"$background_color",
+					0.05
+				]
+			],
+			"tab_background_color_on_selected":
+			[
+				"specify",
+				[
+					"tint",
+					"$background_color",
+					0.07
+				],
+				[
+					"shade",
+					"$background_color",
+					0.01
+				]
+			],
+			"tab_border_color": "$status_bar_border_color",
+			"tab_border_color_on_hover": "$tab_border_color",
+			"tab_border_color_on_selected": "$tab_border_color",
+			"tab_border_width": 1,
+			"tab_close_button_always_visible": true,
+			"tab_flavor": "soda",
+			"tab_foreground_color_on_hover": "$label_foreground_color_on_hover",
+			"tab_height": 35,
+			"tab_line_flavor": "",
+			"tab_overlap": 3,
+			"tab_padding":
+			[
+				16,
+				6,
+				12,
+				5
+			],
+			"tabset_background_color": "$tab_background_color",
+			"tabset_line_background_color": "$tab_background_color_on_selected",
+			"tabset_line_border_width": 1,
+			"tabset_line_height": 5,
+			"tabset_padding":
+			[
+				0,
+				-1,
+				0,
+				0
+			],
+			"title_bar_background_color": "$grid_layout_border_color",
+			"toggle_button_background_color": "$button_background_color",
+			"toggle_button_background_color_on_hover": "$button_background_color_on_hover",
+			"toggle_button_background_color_on_selected":
+			[
+				"specify",
+				[
+					"rgba",
+					255,
+					255,
+					255,
+					0.05
+				],
+				[
+					"rgba",
+					0,
+					0,
+					0,
+					0.05
+				]
+			],
+			"toggle_button_border_color": "$button_border_color",
+			"toggle_button_border_color_on_hover": "$button_border_color_on_hover",
+			"toggle_button_border_color_on_selected": "$button_border_color_on_pressed",
+			"toggle_button_border_width": 1,
+			"toggle_button_group_spacing": 0,
+			"tool_tip_border_color": "$status_bar_border_color"
+		}
+	}
+}

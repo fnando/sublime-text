@@ -3,7 +3,7 @@
         "debug": false, 
         "delay": 0.25, 
         "error_color": "D21E19", 
-        "gutter_theme": "Packages/User/sublimelinter/gutter-theme/User.gutter-theme", 
+        "gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme", 
         "gutter_theme_excludes": [], 
         "lint_mode": "background", 
         "linters": {
