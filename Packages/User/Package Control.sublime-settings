@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -17,6 +18,7 @@
 		"Better Rails",
 		"Better RSpec",
 		"Better Ruby",
+		"Boxy Theme",
 		"BufferScroll",
 		"C Improved",
 		"ChangeQuotes",
