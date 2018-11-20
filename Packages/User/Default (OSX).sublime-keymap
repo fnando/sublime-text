@@ -1,5 +1,5 @@
 [
-  {"keys": ["super+\\"], "command": "toggle_side_bar"},
+  {"keys": ["super+shift+\\"], "command": "toggle_side_bar"},
 
   {
     "keys": ["super+alt+]"],

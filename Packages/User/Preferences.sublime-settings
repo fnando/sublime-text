@@ -36,7 +36,7 @@
 	"color_pick_upcase": false,
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Language - English/en_US.dic",
+	"dictionary": "Packages/Dictionaries 2/Portuguese (Brazilian).dic",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -56,6 +56,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		".cache",
 		".svn",
 		".git",
 		".hg",
@@ -80,15 +81,18 @@
 		"deps",
 		".nyc_output-client",
 		".nyc_output-server",
-		"flow-typed"
+		"flow-typed",
+		".nyc_output"
 	],
-	"font_face": "Hack",
+	"font_face": "LigaHack-Regular",
 	"font_options":
 	[
+		"dlig",
+		"ss10",
 		"subpixel_antialias",
 		"no_round"
 	],
-	"font_size": 17,
+	"font_size": 18,
 	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -102,6 +106,7 @@
 		"D",
 		"EditorConfig",
 		"Erlang",
+		"Git Formats",
 		"Graphviz",
 		"Groovy",
 		"Haskell",
@@ -118,6 +123,7 @@
 		"RestructuredText",
 		"Ruby",
 		"Scala",
+		"SublimeLinter-eslint",
 		"TCL",
 		"Vintage"
 	],
@@ -150,6 +156,12 @@
 	"tab_size": 2,
 	"theme": "DA.sublime-theme",
 	"theme_autocomplete_item_selected_colored": true,
+	"theme_font_options":
+	[
+		"ss10",
+		"subpixel_antialias",
+		"no_round"
+	],
 	"theme_popup_border_visible": true,
 	"theme_quick_panel_border_visible": true,
 	"theme_quick_panel_item_selected_colored": true,
@@ -162,5 +174,6 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true
+	"wide_caret": true,
+  "gpu_window_buffer": true
 }

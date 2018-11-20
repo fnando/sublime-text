@@ -329,7 +329,7 @@
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#333333</string>
 				<key>invisibles</key>
 				<string>#E0E0E0</string>
 				<key>lineHighlight</key>

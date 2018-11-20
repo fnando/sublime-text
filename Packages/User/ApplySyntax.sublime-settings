@@ -122,6 +122,13 @@
         {"file_path": ".*\\.eslintrc$"},
         {"file_path": ".*\\.babelrc$"}
       ]
+    },
+
+    {
+      "syntax": "Better Rails/HTML (Rails)",
+      "rules": [
+        {"file_path": ".*\\.erb$"}
+      ]
     }
   ]
 }
