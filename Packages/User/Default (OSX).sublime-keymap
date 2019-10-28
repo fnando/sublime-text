@@ -26,10 +26,12 @@
     "command": "close_window"
   }, {
     "keys": ["super+shift+r"],
-    "command": "side_bar_rename"
+    "command": "side_bar_rename",
+    "args": { "paths": [] }
   }, {
     "keys": ["super+shift+m"],
-    "command": "side_bar_move"
+    "command": "side_bar_move",
+    "args": { "paths": [] }
   },
   {
     "keys": ["super+k", "super+t"],

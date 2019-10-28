@@ -2,10 +2,10 @@
 {
   "linters": {
     "rubocop": {
-      "use_bundle_exec": true
+      "use_bundle_exec": false
     }
   },
   "paths": {
-    "osx": ["~/.rbenv/shims"]
+    "osx": ["~/.asdf/shims/"]
   }
 }

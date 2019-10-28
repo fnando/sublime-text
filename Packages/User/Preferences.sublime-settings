@@ -11,7 +11,10 @@
 		"Ruby",
 		"Phoenix",
 		"init",
-		"Turbolinks"
+		"Turbolinks",
+		"const",
+		"app",
+		"Params"
 	],
 	"auto_close_tags": true,
 	"auto_complete": true,
@@ -36,7 +39,7 @@
 	"color_pick_upcase": false,
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Dictionaries 2/Portuguese (Brazilian).dic",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -67,22 +70,24 @@
 		"log",
 		".sass-cache",
 		"node_modules",
-		"pkg",
 		".bundle",
 		".grunt",
 		".vagrant",
 		".tmp",
 		"bower_components",
-		"output",
 		"_build",
 		".shards",
-		"dist",
 		"public/assets",
 		"deps",
 		".nyc_output-client",
 		".nyc_output-server",
 		"flow-typed",
-		".nyc_output"
+		".nyc_output",
+		"dist",
+		"ios",
+		"android",
+		".next",
+		"build"
 	],
 	"font_face": "LigaHack-Regular",
 	"font_options":
@@ -93,6 +98,7 @@
 		"no_round"
 	],
 	"font_size": 18,
+	"gpu_window_buffer": true,
 	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -110,10 +116,11 @@
 		"Graphviz",
 		"Groovy",
 		"Haskell",
-		"Java",
+		"Highlight",
 		"LaTex",
 		"Lisp",
 		"Lua",
+		"Markdown",
 		"Matlab",
 		"OCaml",
 		"Pascal",
@@ -123,9 +130,14 @@
 		"RestructuredText",
 		"Ruby",
 		"Scala",
-		"SublimeLinter-eslint",
+		"SCSS",
 		"TCL",
 		"Vintage"
+	],
+	"ignored_words":
+	[
+		"enum",
+		"tilly"
 	],
 	"indent_guide_options":
 	[
@@ -142,6 +154,7 @@
 	"match_brackets_square": true,
 	"rulers":
 	[
+		80
 	],
 	"scroll_past_end": false,
 	"show_encoding": true,
@@ -174,6 +187,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
-  "gpu_window_buffer": true
+	"wide_caret": true
 }

@@ -1,0 +1,4 @@
+{
+  "shell_cmd": "go test",
+  "file_regex": "_test.go$"
+}

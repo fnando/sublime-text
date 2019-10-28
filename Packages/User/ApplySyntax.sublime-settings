@@ -110,7 +110,8 @@
         {"file_path": ".*\\.es6$"},
         {"file_path": ".*\\.es$"},
         {"file_path": ".*\\.jsx$"},
-        {"file_path": ".*\\.js$"}
+        {"file_path": ".*\\.js$"},
+        {"file_path": ".*\\.jsx\\.snap$"},
       ]
     },
 
@@ -119,7 +120,7 @@
       "rules": [
         {"file_path": ".*\\.json$"},
         {"file_path": ".*\\.bowerrc$"},
-        {"file_path": ".*\\.eslintrc$"},
+        {"file_path": ".*\\.eslintrc(\\.(development|test))?$"},
         {"file_path": ".*\\.babelrc$"}
       ]
     },
