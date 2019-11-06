@@ -130,13 +130,15 @@
 		"RestructuredText",
 		"Ruby",
 		"Scala",
-		"SCSS",
 		"TCL",
 		"Vintage"
 	],
 	"ignored_words":
 	[
+		"4d5866",
 		"enum",
+		"ffffff",
+		"svg",
 		"tilly"
 	],
 	"indent_guide_options":

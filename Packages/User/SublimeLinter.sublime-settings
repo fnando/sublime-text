@@ -3,6 +3,9 @@
   "linters": {
     "rubocop": {
       "use_bundle_exec": false
+    },
+    "eslint": {
+      "selector": "source.js, source.ts, source.tsx"
     }
   },
   "paths": {
