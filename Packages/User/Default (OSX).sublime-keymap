@@ -43,9 +43,6 @@
     "keys": ["ctrl+shift+q"],
     "command": "change_quotes"
   }, {
-    "keys": ["ctrl+shift+i"],
-    "command": "expand_selection_to_quotes"
-  }, {
     "keys": ["ctrl+e"],
     "command": "move_to",
     "args": {
