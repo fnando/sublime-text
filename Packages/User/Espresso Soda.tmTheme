@@ -2542,6 +2542,28 @@
 				<string>#ABABABFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FF000022</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF000022</string>
+				<key>foreground</key>
+				<string>#676767FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_F00213FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F00213FF</string>
+				<key>foreground</key>
+				<string>#CBCBCBFF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>BF4E1964-0DB9-4E88-8142-E8F52D7EDEEC</string>
