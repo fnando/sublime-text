@@ -35,7 +35,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "solid",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Soda/Soda.sublime-color-scheme",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,

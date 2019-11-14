@@ -19,7 +19,9 @@
 		"BufferScroll",
 		"C Improved",
 		"ChangeQuotes",
+		"Close Others",
 		"Color Highlight",
+		"Color Scheme - Soda",
 		"ColorPicker",
 		"Crystal",
 		"DA UI",
@@ -39,7 +41,6 @@
 		"Indent XML",
 		"INI",
 		"JsPrettier",
-		"Markdown Extended",
 		"MarkdownPreview",
 		"Modific",
 		"Name That Color",
@@ -49,6 +50,7 @@
 		"PackageDev",
 		"PostgreSQL Syntax Highlighting",
 		"Pretty JSON",
+		"Rubocop Formatter",
 		"RubyEval",
 		"RubyToggleString",
 		"ScopeAlways",
@@ -69,6 +71,7 @@
 		"SVGO",
 		"Swift",
 		"Switch Case",
+		"SyncedSideBar",
 		"Text Pastry",
 		"TodoReview",
 		"TOML",
@@ -77,12 +80,10 @@
 	],
 	"repositories":
 	[
-		"https://github.com/n1k0/SublimeHighlight/tree/python3",
 		"https://github.com/titoBouzout/WordCount/tree/st3",
 		"https://github.com/titoBouzout/BufferScroll/tree/st3",
 		"https://github.com/titoBouzout/Dictionaries",
-		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3",
-		"https://sublime-text-repository.netlify.com/repositories.json"
+		"https://sublime.fnando.com/repositories.json"
 	],
-	"submit_usage": true
+	"submit_usage": false
 }

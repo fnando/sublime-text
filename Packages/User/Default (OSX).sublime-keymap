@@ -16,12 +16,6 @@
     "keys": ["ctrl+super+r"],
     "command": "reveal_in_side_bar"
   }, {
-    "keys": ["super+shift+w"],
-    "command": "close_other_tabs"
-  }, {
-    "keys": ["super+alt+shift+w"],
-    "command": "close_other_windows"
-  }, {
     "keys": ["super+alt+q"],
     "command": "close_window"
   }, {
