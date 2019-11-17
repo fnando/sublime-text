@@ -4,13 +4,6 @@
 
   "syntaxes": [
     {
-      "syntax": "MarkdownEditing/Markdown GFM",
-      "rules": [
-        {"file_path": "\\.md$"}
-      ]
-    },
-
-    {
       "syntax": "Ansible/Ansible",
       "rules": [
         {"file_path": ".*\\main.yml$"},
@@ -75,13 +68,6 @@
       "syntax": "Jinja2/Syntaxes/Jinja Templates",
       "rules": [
         {"file_path": ".*\\.j2$"}
-      ]
-    },
-
-    {
-      "syntax": "YAML/YAML",
-      "rules": [
-        {"file_path": ".*\\Procfile$"}
       ]
     },
 

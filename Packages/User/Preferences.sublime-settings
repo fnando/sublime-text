@@ -16,9 +16,6 @@
 		"app",
 		"Params"
 	],
-	"auto_close_tags": true,
-	"auto_complete": true,
-	"auto_complete_commit_on_tab": false,
 	"auto_complete_cycle": true,
 	"auto_complete_triggers":
 	[
@@ -34,12 +31,9 @@
 	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Soda/Soda.sublime-color-scheme",
 	"detect_indentation": false,
-	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
-	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -96,6 +90,7 @@
 		"no_round"
 	],
 	"font_size": 18,
+	"git_diff_target": "head",
 	"gpu_window_buffer": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -128,38 +123,20 @@
 		"TCL",
 		"Vintage"
 	],
-	"ignored_words":
-	[
-		"4d5866",
-		"enum",
-		"ffffff",
-		"svg",
-		"tilly"
-	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"indent_to_bracket": false,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
-	"match_brackets": true,
 	"match_brackets_angle": true,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
 	"rulers":
 	[
 		80
 	],
 	"scroll_past_end": false,
-	"show_encoding": true,
-	"show_full_path": true,
-	"show_line_endings": true,
-	"show_panel_on_build": true,
-	"show_tab_close_buttons": true,
-	"tab_completion": true,
+	"show_git_status": false,
 	"tab_size": 2,
 	"theme": "DA.sublime-theme",
 	"theme_font_options":
@@ -169,7 +146,6 @@
 		"no_round"
 	],
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true
 }
