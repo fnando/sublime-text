@@ -1,186 +1,194 @@
 [
-  {"keys": ["super+shift+\\"], "command": "toggle_side_bar"},
-
   {
-    "keys": ["super+alt+]"],
+    "keys": [
+      "super+shift+\\"
+    ],
+    "command": "toggle_side_bar"
+  },
+  {
+    "keys": [
+      "super+alt+]"
+    ],
     "command": "align_tab",
-    "args" : {"user_input" : "=>|=|:"}
-  }
-  , {
-    "keys": ["super+alt+w"],
+    "args": {
+      "user_input": "=>|=|:"
+    }
+  },
+  {
+    "keys": [
+      "super+alt+w"
+    ],
     "command": "toggle_setting",
     "args": {
       "setting": "word_wrap"
     }
-  }, {
-    "keys": ["ctrl+super+r"],
-    "command": "reveal_in_side_bar"
-  }, {
-    "keys": ["super+alt+q"],
-    "command": "close_window"
-  }, {
-    "keys": ["super+shift+r"],
-    "command": "side_bar_rename",
-    "args": { "paths": [] }
-  }, {
-    "keys": ["super+shift+m"],
-    "command": "side_bar_move",
-    "args": { "paths": [] }
   },
   {
-    "keys": ["super+k", "super+t"],
+    "keys": [
+      "super+alt+q"
+    ],
+    "command": "close_window"
+  },
+  {
+    "keys": [
+      "super+shift+m"
+    ],
+    "command": "side_bar_move",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "keys": [
+      "super+k",
+      "super+t"
+    ],
     "command": "title_case"
-  }, {
-    "keys": ["super+k", "super+s"],
+  },
+  {
+    "keys": [
+      "super+k",
+      "super+s"
+    ],
     "command": "swap_case"
-  }, {
-    "keys": ["ctrl+shift+q"],
+  },
+  {
+    "keys": [
+      "ctrl+shift+q"
+    ],
     "command": "change_quotes"
-  }, {
-    "keys": ["ctrl+e"],
+  },
+  {
+    "keys": [
+      "ctrl+e"
+    ],
     "command": "move_to",
     "args": {
       "to": "eol",
       "extend": false
     }
-  }, {
-    "keys": ["ctrl+u"],
+  },
+  {
+    "keys": [
+      "ctrl+u"
+    ],
     "command": "run_macro_file",
     "args": {
       "file": "Packages/Default/Delete to BOL.sublime-macro"
     }
-  }, {
-    "keys": ["ctrl+d"],
+  },
+  {
+    "keys": [
+      "ctrl+d"
+    ],
     "command": "right_delete"
-  }, {
-    "keys": ["super+v"],
+  },
+  {
+    "keys": [
+      "super+v"
+    ],
     "command": "paste_and_indent"
-  }, {
-    "keys": ["super+shift+v"],
+  },
+  {
+    "keys": [
+      "super+shift+v"
+    ],
     "command": "paste"
   },
   {
-    "keys": ["'"],
+    "keys": [
+      "ctrl+shift+."
+    ],
+    "command": "erb",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html.ruby, text.html.elixir, source.yaml, source.css, source.scss, source.js"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "alt+d"
+    ],
+    "command": "goto_definition"
+  },
+  {
+    "keys": [
+      "super+alt+n"
+    ],
+    "command": "advanced_new_file_new"
+  },
+  {
+    "keys": [
+      "`"
+    ],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "`$0`"
+    },
+    "context": [
+      {
+        "key": "setting.auto_match_enabled",
+        "operator": "equal",
+        "operand": true
+      },
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": true,
+        "match_all": true
+      },
+      {
+        "key": "following_text",
+        "operator": "regex_contains",
+        "operand": "^(?:\t| |\\`|]|;|\\}|$)",
+        "match_all": true
+      }
+    ]
+  },
+  {
+    "keys": [
+      "`"
+    ],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "`${0:$SELECTION}`"
+    },
+    "context": [
+      {
+        "key": "setting.auto_match_enabled",
+        "operator": "equal",
+        "operand": true
+      },
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": true
+      }
+    ]
+  },
+  {
+    "keys": [
+      "'"
+    ],
     "command": "insert_snippet",
     "args": {
       "contents": "'${0:$SELECTION}'"
     },
-    "context": [{
-      "key": "setting.auto_match_enabled",
-      "operator": "equal",
-      "operand": true
-    },
-    {
-      "key": "selection_empty",
-      "operator": "equal",
-      "operand": false,
-      "match_all": true
-    }]
-  },
-  {
-    "keys": ["ctrl+shift+."],
-    "command": "erb",
-    "context": [{
-      "key": "selector",
-      "operator": "equal",
-      "operand": "text.html.ruby, text.html.elixir, source.yaml, source.css, source.scss, source.js"
-    }]
-  },
-  {
-    "keys": ["ctrl+alt+c"],
-    "command": "sublime_highlight",
-    "args": {
-      "target": "clipboard",
-      "output_type": "rtf"
-    }
-  },
-
-  { "keys": ["alt+d"], "command": "goto_definition" },
-
-  // Text Pastry also binds to super+alt+n, so disable it and
-  // rebind it to Advanced New File.
-  { "keys": ["super+alt+n"], "command": "unbound" },
-  { "keys": ["super+alt+n"], "command": "advanced_new_file_new"},
-
-  // Configure super+b to MarkdownEditing's bold.
-  // { "keys": ["super+alt+b"], "command": "unbound" },
-  { "keys": ["super+alt+b"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/macros/Transform Word - Bold.sublime-macro"}, "context":
-    [
-      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
-    ]
-  },
-  { "keys": ["super+alt+b"], "command": "insert_snippet", "args": {"contents": "${MD_BOLD_MARKER}$1${MD_BOLD_MARKER}"}, "context":
-    [
-      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
-      { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
-      { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
-      { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
-    ]
-  },
-
-  // Auto-pair backstick
-  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
-    [
-      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\`|]|;|\\}|$)", "match_all": true }
-    ]
-  },
-
-  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
-    [
-      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
-    ]
-  },
-
-  // The tab configuration is required for Emmet + JSX.
-  {
-    "keys": ["tab"],
-    "command": "expand_abbreviation_by_tab",
-
-    // put comma-separated syntax selectors for which
-    // you want to expandEmmet abbreviations into "operand" key
-    // instead of SCOPE_SELECTOR.
-    // Examples: source.js, text.html - source
     "context": [
       {
-        "operand": "source.js, text.html",
+        "key": "setting.auto_match_enabled",
         "operator": "equal",
-        "match_all": true,
-        "key": "selector"
+        "operand": true
       },
-
-      // run only if there's no selected text
       {
-        "match_all": true,
-        "key": "selection_empty"
-      },
-
-      // don't work if there are active tabstops
-      {
+        "key": "selection_empty",
         "operator": "equal",
         "operand": false,
-        "match_all": true,
-        "key": "has_next_field"
-      },
-
-      // don't work if completion popup is visible and you
-      // want to insert completion with Tab. If you want to
-      // expand Emmet with Tab even if popup is visible --
-      // remove this section
-      {
-        "operand": false,
-        "operator": "equal",
-        "match_all": true,
-        "key": "auto_complete_visible"
-      },
-      {
-        "match_all": true,
-        "key": "is_abbreviation"
+        "match_all": true
       }
     ]
   }
