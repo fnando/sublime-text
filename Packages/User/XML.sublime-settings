@@ -5,10 +5,10 @@
 	],
 	"extensions":
 	[
-		"xsd",
+		"xml.dist",
 		"xml",
 		"svg",
-		"xml.dist",
+		"xsd",
 		"xslt"
 	],
 	"hidden_extensions":

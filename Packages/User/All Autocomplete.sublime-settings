@@ -1,0 +1,7 @@
+{
+  "exclude_sources": [
+    "markdown",
+    "html",
+    "erb"
+  ]
+}
