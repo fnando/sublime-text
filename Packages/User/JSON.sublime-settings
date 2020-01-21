@@ -3,10 +3,10 @@
 	[
 		"geojson",
 		".csslintrc",
+		".jshintrc",
+		".eslintrc",
 		".eslintrc.development",
 		".bowerrc",
-		".jscsrc",
-		".eslintrc",
-		".jshintrc"
+		".jscsrc"
 	]
 }

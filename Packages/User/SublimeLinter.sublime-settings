@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+  "debug": false,
   "linters": {
     "rubocop": {
       "use_bundle_exec": false

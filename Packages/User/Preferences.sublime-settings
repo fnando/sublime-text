@@ -79,7 +79,8 @@
 		"ios",
 		"android",
 		".next",
-		"build"
+		"build",
+		"es6"
 	],
 	"font_face": "LigaHack-Regular",
 	"font_options":
@@ -136,6 +137,7 @@
 		80
 	],
 	"scroll_past_end": false,
+	"show_full_path": true,
 	"show_git_status": false,
 	"tab_size": 2,
 	"theme": "DA.sublime-theme",

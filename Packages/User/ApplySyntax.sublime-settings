@@ -91,7 +91,7 @@
     },
 
     {
-      "syntax": "Babel/JavaScript (Babel)",
+      "syntax": "JavaScript (Naomi)",
       "rules": [
         {"file_path": ".*\\.es6$"},
         {"file_path": ".*\\.es$"},
