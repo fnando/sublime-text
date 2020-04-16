@@ -80,9 +80,13 @@
 		"android",
 		".next",
 		"build",
-		"es6"
+		"es6",
+		"public/packs",
+		"es",
+		".idea",
+		".dart_tool"
 	],
-	"font_face": "LigaHack-Regular",
+	"font_face": "JetBrains Mono",
 	"font_options":
 	[
 		"dlig",

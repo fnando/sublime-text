@@ -1,4 +1,5 @@
 {
+  "resolve_symlinks": false,
   "exclude_folders": [
     "*.git*",
     "*/node_modules/*",

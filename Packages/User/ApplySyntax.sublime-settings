@@ -112,9 +112,16 @@
     },
 
     {
+      "syntax": "Syntax Highlighting for PostCSS/PostCSS",
+      "rules": [
+        {"file_path": ".*\\.css\\.erb$"}
+      ]
+    },
+
+    {
       "syntax": "Better Rails/HTML (Rails)",
       "rules": [
-        {"file_path": ".*\\.erb$"}
+        {"file_path": ".*\\.html\\.erb$"}
       ]
     }
   ]
