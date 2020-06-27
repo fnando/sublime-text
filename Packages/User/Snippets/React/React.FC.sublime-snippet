@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[import React from "react";
+
+${1:type Props = \{\};
+}
+export const ${2:Component}: React.FC${3:<Props>} = () => {
+  $0
+};]]></content>
+  <tabTrigger>rfc</tabTrigger>
+  <scope>source.tsx</scope>
+</snippet>

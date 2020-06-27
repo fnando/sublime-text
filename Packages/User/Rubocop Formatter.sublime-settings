@@ -1,0 +1,5 @@
+// Rubocop Formatter - User
+{
+  "rubocop_format_on_save": true,
+  "debug": false
+}

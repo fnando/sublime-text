@@ -82,7 +82,6 @@
 		"build",
 		"es6",
 		"public/packs",
-		"es",
 		".idea",
 		".dart_tool"
 	],
@@ -94,7 +93,7 @@
 		"subpixel_antialias",
 		"no_round"
 	],
-	"font_size": 18,
+	"font_size": 16,
 	"git_diff_target": "head",
 	"gpu_window_buffer": true,
 	"highlight_line": true,
@@ -143,6 +142,7 @@
 	"scroll_past_end": false,
 	"show_full_path": true,
 	"show_git_status": false,
+	"skin": "DA UI/Sodish",
 	"tab_size": 2,
 	"theme": "DA.sublime-theme",
 	"theme_font_options":

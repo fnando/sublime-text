@@ -191,5 +191,15 @@
         "match_all": true
       }
     ]
+  },
+
+  {
+    "keys": ["ctrl+shift+o"],
+    "command": "open_url_under_cursor"
+  },
+
+  {
+    "keys": ["ctrl+shift+r"],
+    "command": "convert_inline_link_to_reference"
   }
 ]
