@@ -123,6 +123,13 @@
       "rules": [
         {"file_path": ".*\\.html\\.erb$"}
       ]
+    },
+
+    {
+      "syntax": "Bourne Again Shell (bash)",
+      "rules": [
+        {"file_path": "\\.env(\\.(development|test|production|staging))?"}
+      ]
     }
   ]
 }

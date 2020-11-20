@@ -1,0 +1,17 @@
+{
+	"clients":
+	{
+		"javascript-typescript-langserver":
+		{
+			"enabled": true
+		},
+		"ruby":
+		{
+			"enabled": true
+		},
+		"sorbet":
+		{
+			"enabled": true
+		}
+	}
+}

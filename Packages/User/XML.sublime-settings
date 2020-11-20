@@ -5,11 +5,11 @@
 	],
 	"extensions":
 	[
-		"xml",
-		"xml.dist",
-		"xsd",
 		"svg",
-		"xslt"
+		"xml",
+		"xslt",
+		"xsd",
+		"xml.dist"
 	],
 	"hidden_extensions":
 	[
@@ -18,13 +18,14 @@
 		"tmLanguage",
 		"tmTheme",
 		"tmSnippet",
-		"dae"
+		"dae",
+		"csproj"
 	],
-	"package_dev.bootstrapped":
+	/*"package_dev.bootstrapped":
 	[
 		3126,
 		2017,
 		3,
 		13
-	]
+	]*/
 }

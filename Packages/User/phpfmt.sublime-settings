@@ -1,0 +1,12 @@
+{
+	"indent_with_space": 4,
+	"passes":
+	[
+		"AutoSemicolon",
+		"AddMissingParentheses"
+	],
+	"psr1": true,
+	"psr1_naming": true,
+	"psr2": true,
+	"version": 1,
+}

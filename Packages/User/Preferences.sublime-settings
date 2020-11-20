@@ -21,11 +21,11 @@
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": "/",
-			"selector": "string.quoted.double.html,string.quoted.single.html,source.css"
+			"selector": "string.quoted.double.html,string.quoted.single.html,source.css",
 		}
 	],
 	"auto_complete_with_fields": true,
@@ -51,6 +51,8 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"chrome",
+		"vendor",
 		".cache",
 		".svn",
 		".git",
@@ -103,7 +105,6 @@
 		"ActionScript",
 		"ASP",
 		"C#",
-		"C++",
 		"CTags",
 		"D",
 		"Erlang",
@@ -116,6 +117,7 @@
 		"Lua",
 		"Markdown",
 		"Matlab",
+		"Naomi",
 		"OCaml",
 		"Pascal",
 		"Perl",
@@ -125,7 +127,7 @@
 		"Ruby",
 		"Scala",
 		"TCL",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -153,5 +155,5 @@
 	],
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true
+	"wide_caret": true,
 }

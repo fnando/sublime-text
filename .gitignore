@@ -26,3 +26,4 @@
 *.chback
 *.cache
 *.tmp
+/Package Storage

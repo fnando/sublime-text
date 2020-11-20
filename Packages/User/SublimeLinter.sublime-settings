@@ -3,7 +3,8 @@
   "debug": false,
   "linters": {
     "rubocop": {
-      "use_bundle_exec": false
+      "use_bundle_exec": false,
+      "args": ["--enable-pending-cops"]
     },
     "eslint": {
       "selector": "source.js, source.ts, source.tsx"
