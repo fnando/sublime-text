@@ -10,8 +10,8 @@
   "opacity_on_hover": 1,
 
   // light sidebar
-  // "color": "#555",
-  "color_on_select": "#fff",
+  "color": "#555",
+  "color_on_select": "#ffffff"
 
   // dark sidebar
   // "color": "#9fa3a8",

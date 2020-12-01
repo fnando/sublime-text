@@ -1,67 +1,47 @@
 [
   {
-    "keys": [
-      "super+shift+\\"
-    ],
+    "keys": ["super+shift+\\"],
     "command": "toggle_side_bar"
   },
   {
-    "keys": [
-      "super+alt+]"
-    ],
+    "keys": ["super+alt+]"],
     "command": "align_tab",
     "args": {
       "user_input": "=>|=|:"
     }
   },
   {
-    "keys": [
-      "super+alt+w"
-    ],
+    "keys": ["super+alt+w"],
     "command": "toggle_setting",
     "args": {
       "setting": "word_wrap"
     }
   },
   {
-    "keys": [
-      "super+alt+q"
-    ],
+    "keys": ["super+alt+q"],
     "command": "close_window"
   },
   {
-    "keys": [
-      "super+shift+m"
-    ],
+    "keys": ["super+shift+m"],
     "command": "side_bar_move",
     "args": {
       "paths": []
     }
   },
   {
-    "keys": [
-      "super+k",
-      "super+t"
-    ],
+    "keys": ["super+k", "super+t"],
     "command": "title_case"
   },
   {
-    "keys": [
-      "super+k",
-      "super+s"
-    ],
+    "keys": ["super+k", "super+s"],
     "command": "swap_case"
   },
   {
-    "keys": [
-      "ctrl+shift+q"
-    ],
+    "keys": ["ctrl+shift+q"],
     "command": "change_quotes"
   },
   {
-    "keys": [
-      "ctrl+e"
-    ],
+    "keys": ["ctrl+e"],
     "command": "move_to",
     "args": {
       "to": "eol",
@@ -69,36 +49,26 @@
     }
   },
   {
-    "keys": [
-      "ctrl+u"
-    ],
+    "keys": ["ctrl+u"],
     "command": "run_macro_file",
     "args": {
       "file": "Packages/Default/Delete to BOL.sublime-macro"
     }
   },
   {
-    "keys": [
-      "ctrl+d"
-    ],
+    "keys": ["ctrl+d"],
     "command": "right_delete"
   },
   {
-    "keys": [
-      "super+v"
-    ],
+    "keys": ["super+v"],
     "command": "paste_and_indent"
   },
   {
-    "keys": [
-      "super+shift+v"
-    ],
+    "keys": ["super+shift+v"],
     "command": "paste"
   },
   {
-    "keys": [
-      "ctrl+shift+."
-    ],
+    "keys": ["ctrl+shift+."],
     "command": "erb",
     "context": [
       {
@@ -109,21 +79,15 @@
     ]
   },
   {
-    "keys": [
-      "alt+d"
-    ],
+    "keys": ["alt+d"],
     "command": "goto_definition"
   },
   {
-    "keys": [
-      "super+alt+n"
-    ],
+    "keys": ["super+alt+n"],
     "command": "advanced_new_file_new"
   },
   {
-    "keys": [
-      "`"
-    ],
+    "keys": ["`"],
     "command": "insert_snippet",
     "args": {
       "contents": "`$0`"
@@ -149,9 +113,7 @@
     ]
   },
   {
-    "keys": [
-      "`"
-    ],
+    "keys": ["`"],
     "command": "insert_snippet",
     "args": {
       "contents": "`${0:$SELECTION}`"
@@ -171,9 +133,7 @@
     ]
   },
   {
-    "keys": [
-      "'"
-    ],
+    "keys": ["'"],
     "command": "insert_snippet",
     "args": {
       "contents": "'${0:$SELECTION}'"
@@ -201,5 +161,27 @@
   {
     "keys": ["ctrl+shift+r"],
     "command": "convert_inline_link_to_reference"
+  },
+
+  // Autoclose tags.
+  {
+    "keys": [">"],
+    "command": "auto_close_tag",
+    "args": {
+      "prefix": ">"
+    },
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html, text.xml meta.tag -string -punctuation.definition.tag.begin.xml -meta.scope.between-tag-pair.xml, source.js meta.group.braces.round.js, source.tsx meta.tag",
+        "match_all": true
+      },
+      {
+        "key": "preceding_text",
+        "operator": "not_regex_contains",
+        "operand": "(?:\\<(?:img|br|hr|meta|link|base|input)\\>[^<]*)|/$"
+      }
+    ]
   }
 ]
