@@ -1,4 +1,19 @@
 [
+  // Disable font size increase
+  {
+    "keys": ["super+="],
+    "command": "noop"
+  },
+  {
+    "keys": ["super+shift+="],
+    "command": "noop"
+  },
+  // Disable font size decrease
+  {
+    "keys": ["super+minus"],
+    "command": "noop"
+  },
+
   {
     "keys": ["super+shift+\\"],
     "command": "toggle_side_bar"

@@ -11,8 +11,6 @@
     }
   },
   "paths": {
-    "osx": [
-      "~/.asdf/shims/"
-    ]
-  },
+    "osx": ["~/.asdf/shims/"]
+  }
 }
