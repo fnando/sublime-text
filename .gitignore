@@ -27,3 +27,4 @@
 *.cache
 *.tmp
 /Package Storage
+/Log

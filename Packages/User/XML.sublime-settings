@@ -1,7 +1,7 @@
 {
 	"extensions":
 	[
-		"xml.dist"
+		"xml.dist",
 	],
 	"hidden_extensions":
 	[

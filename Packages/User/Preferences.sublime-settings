@@ -17,10 +17,8 @@
   ],
   "auto_complete_cycle": true,
   "auto_complete_triggers": [
-    {
-      "characters": "<",
-      "selector": "text.html",
-    },
+    { "selector": "text.html, text.xml", "characters": "<", },
+    { "selector": "punctuation.accessor", "rhs_empty": true, },
     {
       "characters": "/",
       "selector": "string.quoted.double.html,string.quoted.single.html,source.css",
@@ -48,7 +46,6 @@
   ],
   "folder_exclude_patterns": [
     "chrome",
-    "vendor",
     ".cache",
     ".svn",
     ".git",
@@ -78,6 +75,7 @@
     "android",
     ".next",
     "build",
+    ".build",
     "es6",
     "public/packs",
     ".idea",
@@ -104,10 +102,8 @@
     "Groovy",
     "Haskell",
     "HTML Tags",
-    "JsPrettier",
     "LaTex",
     "Lisp",
-    "LSP",
     "Lua",
     "Markdown",
     "Matlab",

@@ -1,16 +1,28 @@
 [
   // Disable font size increase
   {
-    "keys": ["super+="],
+    "keys": ["super+equals"],
     "command": "noop"
   },
   {
-    "keys": ["super+shift+="],
+    "keys": ["super+plus"],
+    "command": "noop"
+  },
+  {
+    "keys": ["super+keypad_plus"],
     "command": "noop"
   },
   // Disable font size decrease
   {
     "keys": ["super+minus"],
+    "command": "noop"
+  },
+  {
+    "keys": ["super+shift+minus"],
+    "command": "noop"
+  },
+  {
+    "keys": ["super+keypad_minus"],
     "command": "noop"
   },
 
@@ -176,6 +188,11 @@
   {
     "keys": ["ctrl+shift+r"],
     "command": "convert_inline_link_to_reference"
+  },
+
+  {
+    "keys": ["ctrl+shift+i"],
+    "command": "expand_selection_to_quotes"
   },
 
   // Autoclose tags.
