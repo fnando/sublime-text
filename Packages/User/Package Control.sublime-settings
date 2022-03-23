@@ -20,6 +20,7 @@
     "ChangeQuotes",
     "Clickable URLs",
     "Close Others",
+    "Codefmt",
     "Color Highlight",
     "Color Scheme - Soda",
     "ColorPicker",
@@ -29,6 +30,7 @@
     "Dockerfile Syntax Highlighting",
     "Expand Selection to Quotes",
     "FindKeyConflicts",
+    "Gem Description",
     "Gettext",
     "Git",
     "GitGutter",
@@ -53,12 +55,15 @@
     "PostgreSQL Syntax Highlighting",
     "Procfile Syntax",
     "RuboCop Completion",
+    "Ruby File Toggle",
     "RubyEval",
     "RubyToggleString",
     "ScopeAlways",
     "SCSS",
+    "Seagull",
     "SideBarTools",
     "Slick",
+    "SmartyPants",
     "Sort JavaScript Imports",
     "SqlBeautifier",
     "SRT",
@@ -81,28 +86,17 @@
     "SyncedSideBar",
     "Syntax Highlighting for PostCSS",
     "TodoReview",
-    "TOML",
+    "TOML"
   ],
   "repositories": [
-    "https://github.com/titoBouzout/WordCount/tree/st3",
     "https://github.com/titoBouzout/BufferScroll/tree/st3",
     "https://github.com/titoBouzout/Dictionaries",
     "https://sublime.fnando.com/repositories.json"
   ],
   "submit_usage": false,
   "downloader_precedence": {
-    "windows": [
-      "wininet",
-      "oscrypto"
-    ],
-    "osx": [
-      "curl"
-    ],
-    "linux": [
-      "urllib",
-      "oscrypto",
-      "curl",
-      "wget"
-    ],
-  },
+    "windows": ["wininet", "oscrypto"],
+    "osx": ["curl"],
+    "linux": ["urllib", "oscrypto", "curl", "wget"]
+  }
 }
