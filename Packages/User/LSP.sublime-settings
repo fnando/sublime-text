@@ -4,13 +4,13 @@
       "enabled": true
     },
     "ruby": {
-      "enabled": true
+      "enabled": false
     },
     "sorbet": {
       "enabled": false
     },
     "SourceKit-LSP": {
-      "command": [ "xcrun", "sourcekit-lsp"],
+      "command": ["xcrun", "sourcekit-lsp"],
       "enabled": true,
       "selector": "source.swift"
     }
