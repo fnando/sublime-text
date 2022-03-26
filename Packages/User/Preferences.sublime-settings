@@ -1,16 +1,24 @@
 {
   "auto_complete_cycle": true,
   "auto_complete_triggers": [
-    { "selector": "text.html, text.xml", "characters": "<", },
-    { "selector": "punctuation.accessor", "rhs_empty": true, },
+    {
+      "characters": "<",
+      "selector": "text.html, text.xml"
+    },
+    {
+      "rhs_empty": true,
+      "selector": "punctuation.accessor"
+    },
     {
       "characters": "/",
-      "selector": "string.quoted.double.html,string.quoted.single.html,source.css",
+      "selector": "string.quoted.double.html,string.quoted.single.html,source.css"
     }
   ],
   "auto_complete_with_fields": true,
   "bold_folder_labels": false,
-  "caret_style": "solid",
+  "caret_extra_bottom": 2,
+  "caret_extra_top": 2,
+  "caret_style": "phase",
   "color_scheme": "Packages/Color Scheme - Soda/Soda.sublime-color-scheme",
   "detect_indentation": false,
   "drag_text": false,
@@ -67,7 +75,10 @@
     ".dart_tool"
   ],
   "font_face": "JetBrains Mono",
-  "font_options": ["dlig", "ss10"],
+  "font_options": [
+    "dlig",
+    "ss10"
+  ],
   "font_size": 16,
   "git_diff_target": "head",
   "gpu_window_buffer": false,
@@ -103,23 +114,32 @@
     "Ruby",
     "Scala",
     "TCL",
-    "Vintage",
+    "Vintage"
   ],
-  "indent_guide_options": ["draw_normal", "draw_active"],
+  "indent_guide_options": [
+    "draw_normal",
+    "draw_active"
+  ],
   "line_padding_bottom": 0,
   "line_padding_top": 0,
   "match_brackets_angle": true,
   "overlay_scroll_bars": "enabled",
-  "rulers": [80],
+  "rulers": [
+    80
+  ],
   "scroll_past_end": false,
   "show_full_path": true,
   "show_git_status": false,
   "show_sidebar_button": false,
   "tab_size": 2,
   "theme": "Slick.sublime-theme",
-  "theme_font_options": ["ss10", "subpixel_antialias", "no_round"],
+  "theme_font_options": [
+    "ss10",
+    "subpixel_antialias",
+    "no_round"
+  ],
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": "all",
   "wide_caret": true,
-  "word_separators": "./\\()\"'“”‘’-:,.;<>~!@#$%^&*|+=[]{}`~?-",
+  "word_separators": "./\\()\"'“”‘’-:,.;<>~!@#$%^&*|+=[]{}`~?-"
 }
