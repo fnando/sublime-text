@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-css/LSP-css.sublime-settings"
+
+{
+  "disabled_capabilities": {
+    "completionProvider": false
+  }
+}

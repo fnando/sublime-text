@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-stylelint/LSP-stylelint.sublime-settings"
+
+{
+  "disabled_capabilities": {
+    "completionProvider": true
+  }
+}
