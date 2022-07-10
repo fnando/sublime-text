@@ -72,7 +72,8 @@
         { "file_path": ".*\\chefignore$" },
         { "file_path": ".*\\cfg$" },
         { "file_path": ".*\\hosts$" },
-        { "file_path": ".*\\.env$" }
+        { "file_path": ".*\\.env$" },
+        { "file_path": ".*\\.env.test$" }
       ]
     },
 

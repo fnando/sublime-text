@@ -1,4 +1,16 @@
 {
-  "debug": true,
-  "format_on_save": true
+  "debug": false,
+  "format_on_save": true,
+  "formatters": [
+    "goimports",
+    "rubocop",
+    "prettier",
+    "eslint",
+    "php-cs-fixer",
+    "rustfmt",
+    "svgo",
+    "swiftformat",
+    "flutter",
+    "yapf"
+  ]
 }

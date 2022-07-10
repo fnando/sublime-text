@@ -1,18 +1,35 @@
 {
   "clients": {
+    "css": {
+      "enabled": false
+    },
     "javascript-typescript-langserver": {
       "enabled": true
     },
     "ruby": {
-      "enabled": false
+      "enabled": true
     },
     "sorbet": {
-      "enabled": false
+      "enabled": true,
+      "command": [
+        "srb",
+        "tc",
+        "--typed",
+        "true",
+        "--enable-all-experimental-lsp-features",
+        "--lsp",
+        "--disable-watchman",
+        "."
+      ],
+      "selector": "source.ruby | text.html.ruby"
     },
     "SourceKit-LSP": {
       "command": ["xcrun", "sourcekit-lsp"],
       "enabled": true,
       "selector": "source.swift"
+    },
+    "gopls": {
+      "enabled": true
     }
   },
   "log_debug": true,

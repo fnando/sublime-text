@@ -1,6 +1,7 @@
 {
   "bootstrapped": true,
-  "in_process_packages": [],
+  "in_process_packages": [
+  ],
   "installed_packages": [
     "A File Icon",
     "AdvancedNewFile",
@@ -39,10 +40,14 @@
     "Indent XML",
     "INI",
     "LSP",
+    "LSP-css",
+    "LSP-eslint",
+    "LSP-gopls",
     "LSP-html",
     "LSP-json",
     "LSP-SourceKit",
     "LSP-stylelint",
+    "LSP-tailwindcss",
     "LSP-typescript",
     "LSP-yaml",
     "MarkdownEditing",
@@ -86,7 +91,7 @@
     "SyncedSideBar",
     "Syntax Highlighting for PostCSS",
     "TodoReview",
-    "TOML"
+    "TOML",
   ],
   "repositories": [
     "https://github.com/titoBouzout/BufferScroll/tree/st3",
@@ -97,6 +102,6 @@
   "downloader_precedence": {
     "windows": ["wininet", "oscrypto"],
     "osx": ["curl"],
-    "linux": ["urllib", "oscrypto", "curl", "wget"]
-  }
+    "linux": ["urllib", "oscrypto", "curl", "wget"],
+  },
 }
