@@ -3,23 +3,23 @@
   "auto_complete_triggers": [
     {
       "characters": "<",
-      "selector": "text.html, text.xml"
+      "selector": "text.html, text.xml",
     },
     {
       "rhs_empty": true,
-      "selector": "punctuation.accessor"
+      "selector": "punctuation.accessor",
     },
     {
       "characters": "<",
-      "selector": "text.html, text.xml"
+      "selector": "text.html, text.xml",
     },
     {
       "rhs_empty": true,
-      "selector": "punctuation.accessor"
+      "selector": "punctuation.accessor",
     },
     {
       "characters": "/",
-      "selector": "string.quoted.double.html,string.quoted.single.html,source.css"
+      "selector": "string.quoted.double.html,string.quoted.single.html,source.css",
     }
   ],
   "auto_complete_with_fields": true,
@@ -120,7 +120,7 @@
     "Ruby",
     "Scala",
     "TCL",
-    "Vintage"
+    "Vintage",
   ],
   "indent_guide_options": ["draw_normal", "draw_active"],
   "line_padding_bottom": 0,
@@ -138,5 +138,5 @@
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": "all",
   "wide_caret": true,
-  "word_separators": "./\\()\"'“”‘’-:,.;<>~!@#$%^&*|+=[]{}`~?-"
+  "word_separators": "./\\()\"'“”‘’-:,.;<>~!@#$%^&*|+=[]{}`~?-",
 }
