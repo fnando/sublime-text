@@ -13,8 +13,6 @@
     "flutter",
     "yapf"
   ],
-  "paths":
-  [
-    "~/.asdf/shims"
-  ]
+  "paths": ["~/.asdf/shims"],
+  "timeout": 5
 }
