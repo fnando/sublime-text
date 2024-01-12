@@ -79,6 +79,7 @@
     "SublimeLinter",
     "SublimeLinter-annotations",
     "SublimeLinter-contrib-markdownlint",
+    "SublimeLinter-contrib-rustc",
     "SublimeLinter-contrib-swiftlint",
     "SublimeLinter-contrib-yamllint",
     "SublimeLinter-eslint",
@@ -92,7 +93,7 @@
     "SyncedSideBar",
     "Syntax Highlighting for PostCSS",
     "TodoReview",
-    "TOML",
+    "TOML"
   ],
   "repositories": [
     "https://github.com/titoBouzout/BufferScroll/tree/st3",

@@ -7,10 +7,10 @@
       "enabled": true
     },
     "ruby": {
-      "enabled": true
+      "enabled": false
     },
     "sorbet": {
-      "enabled": true,
+      "enabled": false,
       "command": [
         "srb",
         "tc",
@@ -32,6 +32,6 @@
       "enabled": true
     }
   },
-  "log_debug": true,
+  "log_debug": false,
   "log_server": ["panel"]
 }

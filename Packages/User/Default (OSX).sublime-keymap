@@ -1,4 +1,20 @@
 [
+  {
+    "keys": ["alt+super+z"],
+    "command": "screencast_replay"
+  },
+
+  // Codefmt
+  {
+    "keys": ["super+s"],
+    "command": "format_code_file"
+  },
+  {
+    "keys": ["ctrl+s"],
+    "command": "save",
+    "args": { "async": true }
+  },
+
   // Disable font size increase
   {
     "keys": ["super+equals"],

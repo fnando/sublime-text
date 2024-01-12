@@ -54,6 +54,9 @@
         { "file_path": ".*(\\\\|/)[Cc]heffile$" },
         { "file_path": ".*(\\\\|/)Thorfile$" },
         { "file_path": ".*(\\\\|/)Podfile$" },
+        { "file_path": ".*(\\\\|/)Matchfile$" },
+        { "file_path": ".*(\\\\|/)Fastfile$" },
+        { "file_path": ".*(\\\\|/)Appfile$" },
         { "file_path": ".*(\\\\|/)config.ru$" },
         { "file_path": ".*\\\\Vagrantfile(\\\\..*)?$" },
         { "file_path": ".*/Vagrantfile(/..*)?$" },
@@ -73,7 +76,8 @@
         { "file_path": ".*\\cfg$" },
         { "file_path": ".*\\hosts$" },
         { "file_path": ".*\\.env$" },
-        { "file_path": ".*\\.env.test$" }
+        { "file_path": ".*\\.env.test$" },
+        { "file_path": ".*\\.env.development$" }
       ]
     },
 
@@ -118,13 +122,6 @@
     {
       "syntax": "Better Rails/HTML (Rails)",
       "rules": [{ "file_path": ".*\\.html\\.erb$" }]
-    },
-
-    {
-      "syntax": "Bourne Again Shell (bash)",
-      "rules": [
-        { "file_path": "\\.env(\\.(development|test|production|staging))?" }
-      ]
     }
   ]
 }
