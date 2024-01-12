@@ -12,5 +12,9 @@
     "swiftformat",
     "flutter",
     "yapf"
+  ],
+  "paths":
+  [
+    "~/.asdf/shims"
   ]
 }
