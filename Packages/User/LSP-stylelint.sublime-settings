@@ -5,6 +5,6 @@
     "completionProvider": true,
   },
   "settings": {
-    "stylelint.configBasedir": "/Users/fnando/.asdf/installs/nodejs/22.2.0/lib",
+    "stylelint.configBasedir": "~/.asdf/installs/nodejs/22.2.0/lib",
   },
 }

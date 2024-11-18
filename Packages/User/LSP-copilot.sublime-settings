@@ -1,7 +1,7 @@
 // Settings in here override those in "LSP-copilot/LSP-copilot.sublime-settings"
 
 {
-  "node_bin": "/Users/fnando/.asdf/shims/node",
+  "node_bin": "~/.asdf/shims/node",
   "settings": {
     "debug": false,
   },
