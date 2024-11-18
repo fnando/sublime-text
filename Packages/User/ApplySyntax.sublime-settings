@@ -122,6 +122,11 @@
     {
       "syntax": "Better Rails/HTML (Rails)",
       "rules": [{ "file_path": ".*\\.html\\.erb$" }]
+    },
+
+    {
+      "syntax": "Markdown/Markdown",
+      "rules": [{ "file_path": ".*\\md\\.erb$" }]
     }
   ]
 }

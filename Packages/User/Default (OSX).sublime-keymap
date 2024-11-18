@@ -1,114 +1,112 @@
 [
   {
+    "keys": [],
+    "command": "copilot_accept_completion",
+    "context": [
+      {
+        "key": "copilot.is_on_completion",
+      },
+    ],
+  },
+  {
     "keys": ["alt+super+z"],
-    "command": "screencast_replay"
-  },
-
-  // Codefmt
-  {
-    "keys": ["super+s"],
-    "command": "format_code_file"
-  },
-  {
-    "keys": ["ctrl+s"],
-    "command": "save",
-    "args": { "async": true }
+    "command": "screencast_replay",
   },
 
   // Disable font size increase
   {
     "keys": ["super+equals"],
-    "command": "noop"
+    "command": "noop",
   },
   {
     "keys": ["super+plus"],
-    "command": "noop"
+    "command": "noop",
   },
   {
     "keys": ["super+keypad_plus"],
-    "command": "noop"
+    "command": "noop",
   },
   // Disable font size decrease
   {
     "keys": ["super+minus"],
-    "command": "noop"
+    "command": "noop",
   },
   {
     "keys": ["super+shift+minus"],
-    "command": "noop"
+    "command": "noop",
   },
   {
     "keys": ["super+keypad_minus"],
-    "command": "noop"
+    "command": "noop",
   },
 
   {
     "keys": ["super+shift+\\"],
-    "command": "toggle_side_bar"
+    "command": "toggle_side_bar",
   },
   {
     "keys": ["super+alt+]"],
     "command": "align_tab",
     "args": {
-      "user_input": "=>|=|:"
-    }
+      "user_input": "=>|=|:",
+    },
   },
   {
     "keys": ["super+alt+w"],
     "command": "toggle_setting",
     "args": {
-      "setting": "word_wrap"
-    }
+      "setting": "word_wrap",
+    },
   },
   {
     "keys": ["super+alt+q"],
-    "command": "close_window"
+    "command": "close_window",
   },
   {
     "keys": ["super+shift+m"],
     "command": "side_bar_move",
     "args": {
-      "paths": []
-    }
+      "paths": [],
+    },
   },
   {
     "keys": ["super+k", "super+t"],
-    "command": "title_case"
+    "command": "title_case",
   },
   {
     "keys": ["super+k", "super+s"],
-    "command": "swap_case"
+    "command": "swap_case",
   },
   {
     "keys": ["ctrl+shift+q"],
-    "command": "change_quotes"
+    "command": "change_quotes",
   },
   {
     "keys": ["ctrl+e"],
     "command": "move_to",
     "args": {
       "to": "eol",
-      "extend": false
-    }
+      "extend": false,
+    },
   },
   {
     "keys": ["ctrl+u"],
     "command": "run_macro_file",
     "args": {
-      "file": "Packages/Default/Delete to BOL.sublime-macro"
-    }
+      "file": "Packages/Default/Delete to BOL.sublime-macro",
+    },
   },
   {
     "keys": ["ctrl+d"],
-    "command": "right_delete"
+    "command": "right_delete",
   },
   {
     "keys": ["super+v"],
-    "command": "paste_and_indent"
+    "command": "paste_and_indent",
   },
   {
     "keys": ["super+shift+v"],
-    "command": "paste"
+    "command": "paste",
   },
   {
     "keys": ["ctrl+shift+."],
@@ -117,98 +115,98 @@
       {
         "key": "selector",
         "operator": "equal",
-        "operand": "text.html.ruby, text.html.elixir, source.yaml, source.css, source.scss, source.js"
-      }
-    ]
+        "operand": "text.html.ruby, text.html.elixir, source.yaml, source.css, source.scss, source.js, text.html.rails",
+      },
+    ],
   },
   {
     "keys": ["alt+d"],
-    "command": "goto_definition"
+    "command": "goto_definition",
   },
   {
     "keys": ["super+alt+n"],
-    "command": "advanced_new_file_new"
+    "command": "advanced_new_file_new",
   },
   {
     "keys": ["`"],
     "command": "insert_snippet",
     "args": {
-      "contents": "`$0`"
+      "contents": "`$0`",
     },
     "context": [
       {
         "key": "setting.auto_match_enabled",
         "operator": "equal",
-        "operand": true
+        "operand": true,
       },
       {
         "key": "selection_empty",
         "operator": "equal",
         "operand": true,
-        "match_all": true
+        "match_all": true,
       },
       {
         "key": "following_text",
         "operator": "regex_contains",
         "operand": "^(?:\t| |\\`|]|;|\\}|$)",
-        "match_all": true
-      }
-    ]
+        "match_all": true,
+      },
+    ],
   },
   {
     "keys": ["`"],
     "command": "insert_snippet",
     "args": {
-      "contents": "`${0:$SELECTION}`"
+      "contents": "`${0:$SELECTION}`",
     },
     "context": [
       {
         "key": "setting.auto_match_enabled",
         "operator": "equal",
-        "operand": true
+        "operand": true,
       },
       {
         "key": "selection_empty",
         "operator": "equal",
         "operand": false,
-        "match_all": true
-      }
-    ]
+        "match_all": true,
+      },
+    ],
   },
   {
     "keys": ["'"],
     "command": "insert_snippet",
     "args": {
-      "contents": "'${0:$SELECTION}'"
+      "contents": "'${0:$SELECTION}'",
     },
     "context": [
       {
         "key": "setting.auto_match_enabled",
         "operator": "equal",
-        "operand": true
+        "operand": true,
       },
       {
         "key": "selection_empty",
         "operator": "equal",
         "operand": false,
-        "match_all": true
-      }
-    ]
+        "match_all": true,
+      },
+    ],
   },
 
   {
     "keys": ["ctrl+shift+o"],
-    "command": "open_url_under_cursor"
+    "command": "open_url_under_cursor",
   },
 
   {
     "keys": ["ctrl+shift+r"],
-    "command": "convert_inline_link_to_reference"
+    "command": "convert_inline_link_to_reference",
   },
 
   {
     "keys": ["ctrl+shift+i"],
-    "command": "expand_selection_to_quotes"
+    "command": "expand_selection_to_quotes",
   },
 
   // Autoclose tags.
@@ -216,20 +214,20 @@
     "keys": [">"],
     "command": "auto_close_tag",
     "args": {
-      "prefix": ">"
+      "prefix": ">",
     },
     "context": [
       {
         "key": "selector",
         "operator": "equal",
         "operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html, text.xml meta.tag -string -punctuation.definition.tag.begin.xml -meta.scope.between-tag-pair.xml, source.js meta.group.braces.round.js, source.tsx meta.tag",
-        "match_all": true
+        "match_all": true,
       },
       {
         "key": "preceding_text",
         "operator": "not_regex_contains",
-        "operand": "(?:\\<(?:img|br|hr|meta|link|base|input)\\>[^<]*)|/$"
-      }
-    ]
-  }
+        "operand": "(?:\\<(?:img|br|hr|meta|link|base|input)\\>[^<]*)|/$",
+      },
+    ],
+  },
 ]

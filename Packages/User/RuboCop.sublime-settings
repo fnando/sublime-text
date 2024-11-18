@@ -1,0 +1,6 @@
+// RuboCop - User
+{
+  "debug": true,
+  "rubocop_command": "/Users/fnando/.asdf/shims/rubocop",
+  "bundler_command": "/Users/fnando/.asdf/shims/bundle",
+}

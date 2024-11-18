@@ -2,7 +2,7 @@
   "debug": false,
   "format_on_save": false,
   "formatters": [
-    "goimports",
+    "gofmt",
     "rubocop",
     "prettier",
     "eslint",
@@ -11,8 +11,12 @@
     "svgo",
     "swiftformat",
     "flutter",
-    "yapf"
+    "yapf",
   ],
-  "paths": ["~/.asdf/shims"],
-  "timeout": 5
+  "paths": [
+    "~/.asdf/shims",
+    "~/.cargo/bin/",
+    "~/.rustup/toolchains/stable-aarch64-apple-darwin/bin",
+  ],
+  "timeout": 5,
 }

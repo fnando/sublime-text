@@ -20,7 +20,7 @@
     {
       "characters": "/",
       "selector": "string.quoted.double.html,string.quoted.single.html,source.css",
-    }
+    },
   ],
   "auto_complete_with_fields": true,
   "bold_folder_labels": false,
@@ -45,10 +45,12 @@
     ".tags_sorted_by_file",
     ".gemtags",
     "public/wts.js",
-    "public/wts.js.map"
+    "public/wts.js.map",
   ],
   "folder_exclude_patterns": [
     "chrome",
+    "MacOSX.sdk",
+    "output",
     ".cache",
     ".svn",
     ".git",
@@ -84,9 +86,11 @@
     "public/packs",
     ".idea",
     ".dart_tool",
-    "docs",
-    ".yarn"
-    // "vendor/bundle"
+    "target",
+    ".yarn",
+    ".ruby-lsp",
+    ".svelte-kit",
+    "vendor/bundle",
   ],
   "font_face": "JetBrains Mono",
   "font_options": ["dlig", "ss10"],
@@ -109,9 +113,6 @@
     "Haskell",
     "HTML Tags",
     "Lisp",
-    "LSP-eslint",
-    "LSP-html",
-    "LSP-json",
     "Lua",
     "Matlab",
     "OCaml",
@@ -122,7 +123,6 @@
     "RestructuredText",
     "Ruby",
     "Scala",
-    "SublimeLinter",
     "TCL",
     "Vintage",
   ],
@@ -144,4 +144,5 @@
   "wide_caret": true,
   "word_separators": "./\\()\"'“”‘’-:,.;<>~!@#$%^&*|+=[]{}`~?-",
   "index_files": true,
+  "always_prompt_for_file_reload": false,
 }

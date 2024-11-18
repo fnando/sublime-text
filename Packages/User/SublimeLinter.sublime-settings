@@ -4,13 +4,13 @@
   "linters": {
     "rubocop": {
       "use_bundle_exec": false,
-      "args": ["--enable-pending-cops"]
+      "args": ["--enable-pending-cops"],
     },
     "eslint": {
-      "selector": "source.js, source.ts, source.tsx"
-    }
+      "selector": "source.js, source.ts, source.tsx",
+    },
   },
   "paths": {
-    "osx": ["~/.asdf/shims/"]
-  }
+    "osx": ["~/.asdf/shims/"],
+  },
 }

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require "pry"; binding.pry</string>
+	<string>binding.irb</string>
 	<key>name</key>
 	<string>debug</string>
 	<key>scope</key>

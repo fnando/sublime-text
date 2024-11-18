@@ -1,13 +1,24 @@
 {
   "clients": {
     "css": {
-      "enabled": false
+      "enabled": false,
     },
     "javascript-typescript-langserver": {
-      "enabled": true
+      "enabled": true,
+    },
+    "ruby-lsp": {
+      "enabled": false,
+      "command": ["ruby-lsp"],
+      "selector": "source.ruby | text.html.ruby",
+      "initializationOptions": {
+        "enabledFeatures": {
+          "diagnostics": true,
+        },
+        "experimentalFeaturesEnabled": true,
+      },
     },
     "ruby": {
-      "enabled": false
+      "enabled": false,
     },
     "sorbet": {
       "enabled": false,
@@ -21,17 +32,17 @@
         "--disable-watchman",
         "."
       ],
-      "selector": "source.ruby | text.html.ruby"
+      "selector": "source.ruby | text.html.ruby",
     },
     "SourceKit-LSP": {
       "command": ["xcrun", "sourcekit-lsp"],
       "enabled": true,
-      "selector": "source.swift"
+      "selector": "source.swift",
     },
     "gopls": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "log_debug": false,
-  "log_server": ["panel"]
+  "log_server": ["panel"],
 }
