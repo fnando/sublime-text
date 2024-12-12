@@ -1,5 +1,5 @@
 // Gem Description - User
 {
   "debug": false,
-  "command": "~/.asdf/shims/ruby",
+  "command": "~/.local/share/mise/shims/ruby",
 }

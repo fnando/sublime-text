@@ -1,6 +1,6 @@
 // RuboCop - User
 {
   "debug": true,
-  "rubocop_command": "~/.asdf/shims/rubocop",
-  "bundler_command": "~/.asdf/shims/bundle",
+  "rubocop_command": "~/.local/share/mise/shims/rubocop",
+  "bundler_command": "~/.local/share/mise/shims/bundle",
 }

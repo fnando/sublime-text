@@ -14,7 +14,7 @@
     "yapf",
   ],
   "paths": [
-    "~/.asdf/shims",
+    "~/.local/share/mise/shims",
     "~/.cargo/bin/",
     "~/.rustup/toolchains/stable-aarch64-apple-darwin/bin",
   ],

@@ -11,6 +11,6 @@
     },
   },
   "paths": {
-    "osx": ["~/.asdf/shims/"],
+    "osx": ["~/.local/share/mise/shims/"],
   },
 }
