@@ -11,6 +11,6 @@
     },
   },
   "paths": {
-    "osx": ["~/.local/share/mise/shims/"],
+    "osx": ["~/.local/share/mise/shims/", "~/.local/ruby/gems/bin/"],
   },
 }
