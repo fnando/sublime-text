@@ -1,5 +1,5 @@
 {
-  "debug": false,
+  "debug": true,
   "format_on_save": false,
   "formatters": [
     "gofmt",
@@ -14,9 +14,19 @@
     "yapf",
   ],
   "paths": [
+    "~/fnando/.local/ruby/3.4.2/bin/",
     "~/.local/share/mise/shims",
-    "~/.cargo/bin/",
+    "~/.cargo/bin",
     "~/.rustup/toolchains/stable-aarch64-apple-darwin/bin",
   ],
-  "timeout": 5,
+  "timeout": 0.2,
+
+  "variables": {
+    "bundler": [
+      {
+        "root_dir_has": ["Gemfile"],
+        "value": [],
+      },
+    ],
+  },
 }
