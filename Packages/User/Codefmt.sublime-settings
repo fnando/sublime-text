@@ -1,6 +1,6 @@
 {
   "debug": true,
-  "format_on_save": false,
+  "format_on_save": true,
   "formatters": [
     "gofmt",
     "rubocop",
@@ -19,7 +19,7 @@
     "~/.cargo/bin",
     "~/.rustup/toolchains/stable-aarch64-apple-darwin/bin",
   ],
-  "timeout": 0.2,
+  "timeout": 0.5,
 
   "variables": {
     "bundler": [

@@ -75,7 +75,6 @@
     ".tmp",
     "bower_components",
     "_build",
-    "build",
     ".shards",
     "public/assets",
     "deps",
